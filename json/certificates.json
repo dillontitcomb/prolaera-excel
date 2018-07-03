@@ -1,0 +1,1782 @@
+[
+  {
+    "company_id": 222222,
+    "updates": [
+      {
+        "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+        "time": 1519088035171
+      }
+    ],
+    "sponsor": "Evan Hiner",
+    "sponsors": {
+      "name": "BowmanKnopp",
+      "qas": "123456",
+      "texas": "123456",
+      "nationalRegistry": "123456"
+    },
+    "archive": false,
+    "delivery_uid": 0,
+    "delivery": "Self-Study",
+    "hours": [
+      {
+        "subject_area": "Accounting",
+        "businessValuation": true,
+        "category_id": "92a86735-5fc7-4eb6-a42d-250b953f4dd2",
+        "credits": 1
+      }
+    ],
+    "email": "evan+demo@prolaera.com",
+    "first": "Evan",
+    "approved": true,
+    "date": "2018-02-20T00:53:55.171Z",
+    "pdf":
+      "https://files.prolaera.com/companies/222222/users/29634de5-d8e4-46e8-9d72-8a91985b6ae8/certificates/undefined_undefined_29634de5-d8e4-46e8-9d72-8a91985b6ae8_undefined.pdf",
+    "cert_id": "07e4632d-9215-4c2c-a52a-797035907b3d",
+    "course_id": "07e4632d-9215-4c2c-a52a-797035907b3d",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "My test quiz",
+    "owner": 222222,
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ny_cpa_2018": {
+        "hours": 1
+      },
+      "ca_cpa_2018": {
+        "tech": 1
+      },
+      "wa_cpa_2018": {
+        "tech": 1
+      }
+    }
+  },
+  {
+    "hours_basic": {},
+    "sponsors": {},
+    "delivery_uid": 1,
+    "delivery": "Group-Live",
+    "hours": [
+      {
+        "category_id": "92a86735-5fc7-4eb6-a42d-250b953f4dd2",
+        "subject_area": "Accounting",
+        "credits": 1
+      }
+    ],
+    "first": "Evan",
+    "email": "evan+demo@prolaera.com",
+    "approved": true,
+    "date": "2017-06-30T07:00:00.000Z",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/0ae12647-424d-477d-bd8e-da5a4f7ef12f.pdf",
+    "cert_id": "0ae12647-424d-477d-bd8e-da5a4f7ef12f",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "last": "Hiner",
+    "cert": "ASC 660 Updates",
+    "sponsors_types": {},
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ca_cpa_2017": {
+        "tech": 1
+      },
+      "wa_cpa_2017": {
+        "tech": 1
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "delivery_uid": 0,
+    "delivery": "Self-Study",
+    "hours": [
+      {
+        "category_id": "92a86735-5fc7-4eb6-a42d-250b953f4dd2",
+        "subject_area": "Accounting",
+        "credits": 2
+      }
+    ],
+    "email": "evan+demo@prolaera.com",
+    "first": "Evan",
+    "approved": true,
+    "date": "Nov 17, 2017",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/a651d68b-8b93-4042-8881-11d3c963a1e5.pdf",
+    "internal_pdf": true,
+    "cert_id": "0b5cf582-0198-4964-8dc2-d59107edd146",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "ASC 606:  Preparing for the new Revenue Recognition standard",
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ca_cpa_2018": {
+        "tech": 2
+      },
+      "wa_cpa_2017": {
+        "tech": 2
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "sponsor": "Evan Hiner",
+    "sponsors": {
+      "nationalRegistry": "123456",
+      "qas": "123456",
+      "texas": "123456"
+    },
+    "delivery_uid": 0,
+    "delivery": "Self Study",
+    "hours": [
+      {
+        "category_id": "92a86735-5fc7-4eb6-a42d-250b953f4dd2",
+        "subject_area": "Accounting",
+        "credits": 2
+      }
+    ],
+    "first": "Evan",
+    "email": "evan+demo@prolaera.com",
+    "approved": true,
+    "date": "2018-02-23T23:12:59.500Z",
+    "pdf":
+      "https://files.prolaera.com/companies/222222/users/29634de5-d8e4-46e8-9d72-8a91985b6ae8/certificates/0b5cf582-0198-4964-8dc2-d59107edd146_29634de5-d8e4-46e8-9d72-8a91985b6ae8_0.pdf",
+    "cert_id":
+      "0b5cf582-0198-4964-8dc2-d59107edd146_29634de5-d8e4-46e8-9d72-8a91985b6ae8_0",
+    "course_id": "0b5cf582-0198-4964-8dc2-d59107edd146",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "ASC 606:  Preparing for the new Revenue Recognition standard",
+    "owner": 222222,
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ny_cpa_2018": {
+        "hours": 2
+      },
+      "ca_cpa_2018": {
+        "tech": 2
+      },
+      "wa_cpa_2018": {
+        "tech": 2
+      }
+    }
+  },
+  {
+    "company_id": 1,
+    "sponsor": "Evan Hiner",
+    "hours_basic": {},
+    "sponsors": {
+      "nationalRegistry": "123456",
+      "qas": "123456",
+      "texas": "123456"
+    },
+    "delivery_uid": 4,
+    "delivery": "Instruction",
+    "hours": [
+      {
+        "subject_area": "Auditing",
+        "category_id": "13948c5c-fb58-401e-ad09-54a727e11a03",
+        "credits": 3,
+        "fraud": true
+      }
+    ],
+    "first": "Evan",
+    "email": "evan+demo@prolaera.com",
+    "approved": true,
+    "date": "2017-09-01T19:00:00.000Z",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/145d67d6-16e4-43b4-8b7e-5189927ef8c2-41fa4b48-9639-4e9e-8709-7e5cbf311175-29634de5-d8e4-46e8-9d72-8a91985b6ae8-4.pdf",
+    "cert_id":
+      "145d67d6-16e4-43b4-8b7e-5189927ef8c2-41fa4b48-9639-4e9e-8709-7e5cbf311175-29634de5-d8e4-46e8-9d72-8a91985b6ae8-4",
+    "course_id": "145d67d6-16e4-43b4-8b7e-5189927ef8c2",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "Fraud in the Digital Age",
+    "event_id": "41fa4b48-9639-4e9e-8709-7e5cbf311175",
+    "owner": 222222,
+    "sponsors_types": {},
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ny_cpa_2017": {
+        "hours": 3
+      },
+      "ca_cpa_2017": {
+        "tech": 3
+      },
+      "wa_cpa_2017": {
+        "tech": 3
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "sponsor": "WSCPA",
+    "hours_basic": {},
+    "sponsors": {
+      "name": "WSCPA"
+    },
+    "delivery_uid": 1,
+    "delivery": "Group-Live",
+    "hours": [
+      {
+        "category_id": "WA_CPA_ETHICS",
+        "subject_area": "Washington State Ethics",
+        "credits": 4
+      }
+    ],
+    "first": "Evan",
+    "email": "evan+demo@prolaera.com",
+    "approved": true,
+    "date": "2017-01-20T08:00:00.000Z",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/2173771a-2c78-4e4d-be8e-32782414f833.pdf",
+    "cert_id": "2173771a-2c78-4e4d-be8e-32782414f833",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "last": "Hiner",
+    "cert": "WA State Ethics",
+    "owner": 222222,
+    "sponsors_types": {},
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ca_cpa_2017": {
+        "nontech": 4
+      },
+      "wa_cpa_2017": {
+        "ethics_state": 4
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "sponsor": "Evan Hiner",
+    "sponsors": {
+      "nationalRegistry": "123456",
+      "qas": "123456",
+      "texas": "123456"
+    },
+    "delivery_uid": 1,
+    "delivery": "Live Course",
+    "hours": [
+      {
+        "category_id": "13948c5c-fb58-401e-ad09-54a727e11a03",
+        "subject_area": "Auditing",
+        "credits": 2
+      },
+      {
+        "category_id": "92a86735-5fc7-4eb6-a42d-250b953f4dd2",
+        "subject_area": "Accounting",
+        "credits": 2
+      }
+    ],
+    "first": "Evan",
+    "email": "evan+demo@prolaera.com",
+    "approved": true,
+    "date": "2017-08-01T21:00:07.085Z",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/31b93488-f6ca-4754-b6aa-103b30d46da7-2bdce7ee-d5a5-46ad-a011-3e2b3ad12253-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1.pdf",
+    "cert_id":
+      "31b93488-f6ca-4754-b6aa-103b30d46da7-2bdce7ee-d5a5-46ad-a011-3e2b3ad12253-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+    "course_id": "31b93488-f6ca-4754-b6aa-103b30d46da7",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "Demo Course",
+    "event_id": "2bdce7ee-d5a5-46ad-a011-3e2b3ad12253",
+    "owner": 222222,
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ny_cpa_2017": {
+        "hours": 4
+      },
+      "ca_cpa_2017": {
+        "tech": 4
+      },
+      "wa_cpa_2017": {
+        "tech": 4
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "sponsor": "CalCPA",
+    "hours_basic": {},
+    "sponsors": {
+      "name": "CalCPA",
+      "nationalRegistry": "123456"
+    },
+    "delivery_uid": 2,
+    "delivery": "Group-Internet / Webinar",
+    "hours": [
+      {
+        "category_id": "13948c5c-fb58-401e-ad09-54a727e11a03",
+        "subject_area": "Auditing",
+        "credits": 3
+      }
+    ],
+    "first": "Evan",
+    "approved": true,
+    "date": "2018-04-26T08:00:00.000Z",
+    "pdf":
+      "https://files.prolaera.com/companies/222222/users/29634de5-d8e4-46e8-9d72-8a91985b6ae8/certificates/3d548960-de35-4b65-94e5-cb81b5f4836b.pdf",
+    "cert_id": "35ce1892-476a-4b75-b2ab-8415ede4017a",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "GASB Updates 2Q 2018",
+    "owner": 222222,
+    "sponsors_types": {},
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ny_cpa_2018": {
+        "hours": 3
+      },
+      "ca_cpa_2018": {
+        "tech": 3
+      },
+      "wa_cpa_2018": {
+        "tech": 3
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "updates": [
+      {
+        "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+        "time": 1530052249660
+      },
+      {
+        "stage": "dev",
+        "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+        "time": 1530120439807
+      }
+    ],
+    "sponsor": "BowmanKnopp",
+    "hours_basic": {},
+    "sponsors": {
+      "name": "BowmanKnopp",
+      "qas": "123456",
+      "texas": "123456",
+      "nationalRegistry": "123456"
+    },
+    "archive": false,
+    "delivery_uid": 0,
+    "delivery": "Self-Study",
+    "email": "evan+demo@prolaera.com",
+    "first": "Evan",
+    "hours": [
+      {
+        "category_id": "779f04a1-bae0-46de-9c7c-1d565c8decc2",
+        "subject_area": "Auditing - Governmental",
+        "credits": 2
+      }
+    ],
+    "date": "2018-06-26T22:30:49.660Z",
+    "pdf":
+      "https://files.prolaera.com/companies/222222/users/29634de5-d8e4-46e8-9d72-8a91985b6ae8/certificates/36c49df8-bb13-48df-ac57-327b35a568fd_29634de5-d8e4-46e8-9d72-8a91985b6ae8_0.pdf",
+    "cert_id": "36c49df8-bb13-48df-ac57-327b35a568fd",
+    "course_id": "36c49df8-bb13-48df-ac57-327b35a568fd",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "Yellow Book Overview and Update",
+    "owner": 222222,
+    "sponsors_types": {},
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ny_cpa_2018": {
+        "hours": 2
+      },
+      "ca_cpa_2018": {
+        "tech": 2
+      },
+      "wa_cpa_2018": {
+        "tech": 2
+      },
+      "yellowbook_80_2018": {
+        "yellowbook": 2
+      }
+    }
+  },
+  {
+    "company_id": 1,
+    "delivery_uid": 0,
+    "delivery": "Self-Study",
+    "hours": [
+      {
+        "category_id": "73c43e1b-5336-4183-97a4-2a9e9cecccf2",
+        "subject_area": "Taxes",
+        "credits": 2
+      }
+    ],
+    "email": "evan+demo@prolaera.com",
+    "first": "Evan",
+    "approved": true,
+    "date": "Nov 28, 2017",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/68f37f54-964c-423b-9c8b-161f2584086c.pdf",
+    "internal_pdf": true,
+    "cert_id": "3e82ea4a-dc2a-4078-bdfc-f3de31f3d9c9",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "Preparing for 2018 Tax Updates",
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ca_cpa_2018": {
+        "tech": 2
+      },
+      "wa_cpa_2017": {
+        "tech": 2
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "location": "111 South Jackson Street, Seattle, WA, United States",
+    "sponsors": {
+      "name": "Bowman Knopp - External"
+    },
+    "delivery_uid": 1,
+    "delivery": "Live Course",
+    "hours": [
+      {
+        "category_id": "73c43e1b-5336-4183-97a4-2a9e9cecccf2",
+        "subject_area": "Taxes",
+        "credits": 2.5
+      }
+    ],
+    "first": "Evan",
+    "email": "evan+demo@prolaera.com",
+    "approved": true,
+    "date": "2017-11-15T21:00:21.157Z",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/400b2e80-7d76-429c-b378-12755c157c2a-3540671e-8166-45de-b31a-20286a9bf264-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1.pdf",
+    "cert_id":
+      "400b2e80-7d76-429c-b378-12755c157c2a-3540671e-8166-45de-b31a-20286a9bf264-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+    "course_id": "400b2e80-7d76-429c-b378-12755c157c2a",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "Preparing for 2018 Tax Updates (Group-Live)",
+    "event_id": "3540671e-8166-45de-b31a-20286a9bf264",
+    "owner": 222222,
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ca_cpa_2018": {
+        "tech": 2.5
+      },
+      "wa_cpa_2017": {
+        "tech": 2.5
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "location": "Webinar",
+    "sponsors": {
+      "name": "BowmanKnopp",
+      "qas": "123456",
+      "texas": "123456",
+      "nationalRegistry": "123456"
+    },
+    "delivery_uid": 1,
+    "delivery": "Live Course",
+    "hours": [
+      {
+        "category_id": "73c43e1b-5336-4183-97a4-2a9e9cecccf2",
+        "subject_area": "Taxes",
+        "credits": 3
+      }
+    ],
+    "first": "Evan",
+    "email": "evan+demo@prolaera.com",
+    "approved": true,
+    "date": "2017-11-29T18:11:00.689Z",
+    "pdf":
+      "https://files.prolaera.com/companies/222222/users/29634de5-d8e4-46e8-9d72-8a91985b6ae8/certificates/400b2e80-7d76-429c-b378-12755c157c2a_a7e6bcdd-a0cf-4eb4-9b44-65f06c5d1a7b_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1.pdf",
+    "cert_id":
+      "400b2e80-7d76-429c-b378-12755c157c2a_a7e6bcdd-a0cf-4eb4-9b44-65f06c5d1a7b_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1",
+    "course_id": "400b2e80-7d76-429c-b378-12755c157c2a",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "Preparing for 2018 Tax Updates (Group-Live)",
+    "event_id": "a7e6bcdd-a0cf-4eb4-9b44-65f06c5d1a7b",
+    "owner": 222222,
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ny_cpa_2017": {
+        "hours": 3
+      },
+      "ca_cpa_2018": {
+        "tech": 3
+      },
+      "wa_cpa_2017": {
+        "tech": 3
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "location": "111 South Jackson Street, Seattle, WA, United States",
+    "sponsor": "BowmanKnopp",
+    "sponsors": {
+      "name": "BowmanKnopp",
+      "qas": "123456",
+      "texas": "123456",
+      "nationalRegistry": "123456"
+    },
+    "delivery_uid": 1,
+    "delivery": "Live Course",
+    "hours": [
+      {
+        "subject_area": "Taxes",
+        "category_id": "73c43e1b-5336-4183-97a4-2a9e9cecccf2",
+        "$$hashKey": "object:1226",
+        "credits": 2
+      }
+    ],
+    "first": "Evan",
+    "approve": true,
+    "approved": true,
+    "date": "2018-02-28T08:00:00.000Z",
+    "pdf":
+      "https://files.prolaera.com/companies/222222/users/29634de5-d8e4-46e8-9d72-8a91985b6ae8/certificates/400b2e80-7d76-429c-b378-12755c157c2a_ebd0ee65-4e6f-40b4-9d2c-635fab25646c_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1.pdf",
+    "cert_id":
+      "400b2e80-7d76-429c-b378-12755c157c2a_ebd0ee65-4e6f-40b4-9d2c-635fab25646c_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1",
+    "course_id": "400b2e80-7d76-429c-b378-12755c157c2a",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "Preparing for 2018 Tax Updates (Group-Live)",
+    "event_id": "ebd0ee65-4e6f-40b4-9d2c-635fab25646c",
+    "owner": 222222,
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ny_cpa_2018": {
+        "hours": 2
+      },
+      "ca_cpa_2018": {
+        "tech": 2
+      },
+      "wa_cpa_2018": {
+        "tech": 2
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "delivery_uid": 0,
+    "delivery": "Self-Study",
+    "hours": [
+      {
+        "category_id": "73c43e1b-5336-4183-97a4-2a9e9cecccf2",
+        "subject_area": "Taxes",
+        "credits": 1
+      }
+    ],
+    "email": "evan+demo@prolaera.com",
+    "first": "Evan",
+    "approved": true,
+    "date": "Nov 20, 2017",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/be161f01-8571-4428-a54e-d8abe297801d.pdf",
+    "internal_pdf": true,
+    "cert_id": "402655fd-0305-4197-a895-8fbf1db7314e",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "Washington State SALT Updates Copy",
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ca_cpa_2018": {
+        "tech": 1
+      },
+      "wa_cpa_2017": {
+        "tech": 1
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "sponsor": "Evan Hiner",
+    "delivery_uid": 1,
+    "delivery": "Live Course",
+    "hours": [
+      {
+        "subject_area": "Personal Development",
+        "category_id": "542eb280-a105-4973-adc6-17f093142099",
+        "credits": 1
+      },
+      {
+        "subject_area": "Communications & Marketing",
+        "category_id": "975a7da0-bac3-4950-ac90-92bf532f30f0",
+        "credits": 1
+      }
+    ],
+    "first": "Evan",
+    "email": "evan+demo@prolaera.com",
+    "approved": true,
+    "date": "2017-05-01T19:00:00.000Z",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/4dbc7d8b-6f2d-4568-8af9-d02edd92a089-f4234cda-b6bb-45f7-9bf4-c89d88cafe1e-29634de5-d8e4-46e8-9d72-8a91985b6ae8.pdf",
+    "cert_id":
+      "4dbc7d8b-6f2d-4568-8af9-d02edd92a089-f4234cda-b6bb-45f7-9bf4-c89d88cafe1e-29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "course_id": "4dbc7d8b-6f2d-4568-8af9-d02edd92a089",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "Communication for Modern Leaders",
+    "event_id": "f4234cda-b6bb-45f7-9bf4-c89d88cafe1e",
+    "owner": 222222,
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ca_cpa_2017": {
+        "nontech": 2
+      },
+      "wa_cpa_2017": {
+        "nontech": 2
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "delivery_uid": 0,
+    "delivery": "Self-Study",
+    "hours": [
+      {
+        "category_id": "92a86735-5fc7-4eb6-a42d-250b953f4dd2",
+        "subject_area": "Accounting",
+        "credits": 1
+      }
+    ],
+    "email": "evan+demo@prolaera.com",
+    "first": "Evan",
+    "approved": true,
+    "date": "Dec 01, 2017",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/121dc1df-ef48-412c-a1cd-415800264d6d.pdf",
+    "internal_pdf": true,
+    "cert_id": "653bdfba-5edb-41b5-983e-ec4dcfd28190",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "ASC 606 Updates:  How to prepare",
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ca_cpa_2018": {
+        "tech": 1
+      },
+      "wa_cpa_2017": {
+        "tech": 1
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "sponsor": "NYSCPA",
+    "hours_basic": {},
+    "sponsors": {
+      "name": "NYSCPA"
+    },
+    "delivery_uid": 2,
+    "delivery": "Group-Internet / Webinar",
+    "hours": [
+      {
+        "category_id": "NY_CPA_ETHICS",
+        "subject_area": "New York State Ethics",
+        "credits": 4
+      }
+    ],
+    "approved": true,
+    "date": "2018-01-10T08:00:00.000Z",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/6f770182-3187-4966-9e3e-d603b038960f.pdf",
+    "cert_id": "6f770182-3187-4966-9e3e-d603b038960f",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "New York State Ethics",
+    "owner": 222222,
+    "sponsors_types": {
+      "nationalRegistry": true,
+      "newYork": true
+    },
+    "pdf_uploaded": false,
+    "hours_applied": {
+      "ny_cpa_2018": {
+        "ethics_state": 4
+      },
+      "ca_cpa_2018": {
+        "nontech": 4
+      },
+      "wa_cpa_2018": {
+        "nontech": 4
+      }
+    }
+  },
+  {
+    "sponsors": {},
+    "delivery_uid": 0,
+    "delivery": "Self-Study",
+    "hours": [
+      {
+        "subject_area": "Taxes",
+        "category_id": "73c43e1b-5336-4183-97a4-2a9e9cecccf2",
+        "credits": 2,
+        "yellowbook": true
+      }
+    ],
+    "first": "Evan",
+    "email": "evan+demo@prolaera.com",
+    "approved": true,
+    "date": "2018-01-01T08:00:00.000Z",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/72be8671-7279-4c94-9b39-f3cf6b50ab71.pdf",
+    "cert_id": "72be8671-7279-4c94-9b39-f3cf6b50ab71",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "last": "Hiner",
+    "cert": "New Tax Reform Updates",
+    "sponsors_types": {},
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ca_cpa_2018": {
+        "tech": 2
+      },
+      "wa_cpa_2018": {
+        "tech": 2
+      },
+      "yellowbook_80_2018": {
+        "proficiency": 2
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "updates": [
+      {
+        "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+        "time": 1519787082940
+      }
+    ],
+    "sponsor": "BowmanKnopp",
+    "hours_basic": {
+      "aicpa_cpa": [
+        {
+          "category": "hours",
+          "credits": 3
+        }
+      ],
+      "aicpa_cpa_pr": [
+        {
+          "category": "hours",
+          "credits": 2
+        },
+        {
+          "category": "a_a",
+          "credits": 0
+        }
+      ]
+    },
+    "sponsors": {
+      "name": "BowmanKnopp",
+      "qas": "123456",
+      "texas": "123456",
+      "nationalRegistry": "123456"
+    },
+    "archive": false,
+    "delivery_uid": 0,
+    "delivery": "Self-Study",
+    "hours": [
+      {
+        "subject_area": "Accounting",
+        "category_id": "92a86735-5fc7-4eb6-a42d-250b953f4dd2",
+        "credits": 4,
+        "yellowbook": true
+      }
+    ],
+    "email": "evan+demo@prolaera.com",
+    "first": "Evan",
+    "approved": true,
+    "date": "2018-02-28T08:00:00.000Z",
+    "pdf":
+      "https://files.prolaera.com/companies/222222/users/29634de5-d8e4-46e8-9d72-8a91985b6ae8/certificates/77b807e7-806a-49b7-9263-cdd3930990ae_29634de5-d8e4-46e8-9d72-8a91985b6ae8_0.pdf",
+    "cert_id": "77b807e7-806a-49b7-9263-cdd3930990ae",
+    "course_id": "77b807e7-806a-49b7-9263-cdd3930990ae",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "US GAAP Updates",
+    "owner": 222222,
+    "sponsors_types": {},
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ny_cpa_2018": {
+        "hours": 4
+      },
+      "ca_cpa_2018": {
+        "tech": 4
+      },
+      "wa_cpa_2018": {
+        "tech": 4
+      },
+      "yellowbook_80_2018": {
+        "proficiency": 4
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "sponsors": {
+      "nationalRegistry": "123456",
+      "qas": "123456",
+      "texas": "123456"
+    },
+    "delivery_uid": 1,
+    "delivery": "Live Course",
+    "hours": [
+      {
+        "category_id": "92a86735-5fc7-4eb6-a42d-250b953f4dd2",
+        "subject_area": "Accounting",
+        "credits": 2
+      }
+    ],
+    "first": "Evan",
+    "email": "evan+demo@prolaera.com",
+    "approved": true,
+    "date": "2017-11-17T18:00:25.266Z",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/79a925d6-1819-45e2-a6f2-ad1a7787f4f9-0cf43aae-6554-4079-a658-bf9aebb23415-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1.pdf",
+    "cert_id":
+      "79a925d6-1819-45e2-a6f2-ad1a7787f4f9-0cf43aae-6554-4079-a658-bf9aebb23415-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+    "course_id": "79a925d6-1819-45e2-a6f2-ad1a7787f4f9",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "ASC 606 Update Training",
+    "event_id": "0cf43aae-6554-4079-a658-bf9aebb23415",
+    "owner": 222222,
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ny_cpa_2017": {
+        "hours": 2
+      },
+      "ca_cpa_2018": {
+        "tech": 2
+      },
+      "wa_cpa_2017": {
+        "tech": 2
+      }
+    }
+  },
+  {
+    "hours_basic": {},
+    "sponsors": {},
+    "delivery_uid": 1,
+    "delivery": "Group-Live",
+    "hours": [
+      {
+        "category_id": "13948c5c-fb58-401e-ad09-54a727e11a03",
+        "subject_area": "Auditing",
+        "credits": 16
+      }
+    ],
+    "first": "Evan",
+    "email": "evan+demo@prolaera.com",
+    "approved": true,
+    "date": "2017-11-11T19:00:14.731Z",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/866544a8-f63f-4b68-8a4f-d61b7412e28f.pdf",
+    "cert_id": "866544a8-f63f-4b68-8a4f-d61b7412e28f",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "last": "Hiner",
+    "cert": "A&A Conference 2017",
+    "sponsors_types": {},
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ca_cpa_2018": {
+        "tech": 16
+      },
+      "wa_cpa_2017": {
+        "tech": 16
+      }
+    }
+  },
+  {
+    "company_id": 1,
+    "sponsor": "BowmanKnopp",
+    "hours_basic": {},
+    "sponsors": {
+      "name": "BowmanKnopp"
+    },
+    "delivery_uid": 1,
+    "delivery": "Group-Live",
+    "hours": [
+      {
+        "subject_area": "Taxes",
+        "federalTaxes": true,
+        "category_id": "73c43e1b-5336-4183-97a4-2a9e9cecccf2",
+        "credits": 1.5
+      }
+    ],
+    "first": "Evan",
+    "email": "evan+demo@prolaera.com",
+    "approved": true,
+    "date": "2017-06-19T19:00:00.000Z",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/8fc1e500-01ef-4b98-82e8-efd2958ed2aa-9da15ee5-c7e2-45da-8e6b-77a14bb44210-29634de5-d8e4-46e8-9d72-8a91985b6ae8.pdf",
+    "cert_id":
+      "8fc1e500-01ef-4b98-82e8-efd2958ed2aa-9da15ee5-c7e2-45da-8e6b-77a14bb44210-29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "course_id": "8fc1e500-01ef-4b98-82e8-efd2958ed2aa",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "Federal Tax Updates",
+    "event_id": "9da15ee5-c7e2-45da-8e6b-77a14bb44210",
+    "owner": 222222,
+    "sponsors_types": {},
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ca_cpa_2017": {
+        "tech": 1.5
+      },
+      "wa_cpa_2017": {
+        "tech": 1.5
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "sponsor": "Evan Hiner",
+    "sponsors": {
+      "nationalRegistry": "123456",
+      "irs": "123-456"
+    },
+    "delivery_uid": 1,
+    "delivery": "Live Course",
+    "hours": [
+      {
+        "subject_area": "Taxes",
+        "category_id": "73c43e1b-5336-4183-97a4-2a9e9cecccf2",
+        "credits": 2
+      }
+    ],
+    "first": "Evan",
+    "email": "evan+demo@prolaera.com",
+    "approved": true,
+    "date": "2017-06-14T19:00:00.000Z",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/8fc1e500-01ef-4b98-82e8-efd2958ed2aa-a503fae5-b4a8-4fe0-a7ec-5a40deff0380-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1.pdf",
+    "cert_id":
+      "8fc1e500-01ef-4b98-82e8-efd2958ed2aa-a503fae5-b4a8-4fe0-a7ec-5a40deff0380-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+    "course_id": "8fc1e500-01ef-4b98-82e8-efd2958ed2aa",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "Federal Tax Updates",
+    "event_id": "a503fae5-b4a8-4fe0-a7ec-5a40deff0380",
+    "owner": 222222,
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ny_cpa_2017": {
+        "hours": 2
+      },
+      "ca_cpa_2017": {
+        "tech": 2
+      },
+      "wa_cpa_2017": {
+        "tech": 2
+      }
+    }
+  },
+  {
+    "company_id": 1,
+    "location": "Seattle, WA",
+    "sponsor": "WSCPA",
+    "hours_basic": {},
+    "sponsors": {
+      "name": "WSCPA"
+    },
+    "delivery_uid": 1,
+    "delivery": "Group-Live",
+    "hours": [
+      {
+        "subject_area": "Auditing",
+        "businessValuation": true,
+        "category_id": "13948c5c-fb58-401e-ad09-54a727e11a03",
+        "credits": 8,
+        "fraud": true
+      },
+      {
+        "subject_area": "Accounting",
+        "category_id": "92a86735-5fc7-4eb6-a42d-250b953f4dd2",
+        "employeeBenefitPlan": true,
+        "credits": 5
+      },
+      {
+        "subject_area": "Personal Development",
+        "category_id": "542eb280-a105-4973-adc6-17f093142099",
+        "credits": 3,
+        "yellowbook": true
+      }
+    ],
+    "first": "Evan",
+    "email": "evan+demo@prolaera.com",
+    "approved": true,
+    "date": "2017-02-12T08:00:00.000Z",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc.pdf",
+    "cert_id": "9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "last": "Hiner",
+    "cert": "A&A Conference 2017",
+    "sponsors_types": {
+      "pennsylvania": true,
+      "newYork": true,
+      "qAS": true,
+      "allOthers": true,
+      "illinois": true,
+      "irs": true,
+      "texas": true,
+      "nationalRegistry": true,
+      "newJersey": true
+    },
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ny_cpa_2017": {
+        "hours": 16
+      },
+      "ca_cpa_2017": {
+        "tech": 13,
+        "nontech": 3
+      },
+      "yellowbook_80_2017": {
+        "proficiency": 3
+      },
+      "wa_cpa_2017": {
+        "tech": 13,
+        "nontech": 3
+      }
+    }
+  },
+  {
+    "company_id": 1,
+    "delivery_uid": 0,
+    "delivery": "Self-Study",
+    "hours": [
+      {
+        "subject_area": "Auditing",
+        "category_id": "13948c5c-fb58-401e-ad09-54a727e11a03",
+        "credits": 2,
+        "fraud": true
+      }
+    ],
+    "email": "evan+demo@prolaera.com",
+    "first": "Evan",
+    "approved": true,
+    "date": "Nov 28, 2017",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/8b78c6c8-429a-4223-8733-ddc2dc9e785a.pdf",
+    "internal_pdf": true,
+    "cert_id": "9e974150-e9e8-4945-9f34-3f251babed03",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "Audit",
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ca_cpa_2018": {
+        "tech": 2
+      },
+      "wa_cpa_2017": {
+        "tech": 2
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "sponsor": "Evan Hiner",
+    "sponsors": {
+      "nationalRegistry": "123456",
+      "qas": "123456",
+      "texas": "123456"
+    },
+    "delivery_uid": 1,
+    "delivery": "Live Course",
+    "hours": [
+      {
+        "category_id": "13948c5c-fb58-401e-ad09-54a727e11a03",
+        "subject_area": "Auditing",
+        "credits": 1.5
+      }
+    ],
+    "first": "Evan",
+    "email": "evan+demo@prolaera.com",
+    "approved": true,
+    "date": "2017-09-17T19:00:18.708Z",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/9f4f4ed1-360c-4f69-86ca-a6132ad27164-4dea0a6e-e498-4b10-9344-770736244b51-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1.pdf",
+    "cert_id":
+      "9f4f4ed1-360c-4f69-86ca-a6132ad27164-4dea0a6e-e498-4b10-9344-770736244b51-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+    "course_id": "9f4f4ed1-360c-4f69-86ca-a6132ad27164",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "Demo In-House Course",
+    "event_id": "4dea0a6e-e498-4b10-9344-770736244b51",
+    "owner": 222222,
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ny_cpa_2017": {
+        "hours": 1.5
+      },
+      "ca_cpa_2017": {
+        "tech": 1.5
+      },
+      "wa_cpa_2017": {
+        "tech": 1.5
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "sponsor": "CalCPA",
+    "hours_basic": {},
+    "sponsors": {
+      "name": "CalCPA",
+      "nationalRegistry": "123456"
+    },
+    "delivery_uid": 2,
+    "delivery": "Group-Internet / Webinar",
+    "hours": [
+      {
+        "category_id": "92a86735-5fc7-4eb6-a42d-250b953f4dd2",
+        "subject_area": "Accounting",
+        "credits": 1
+      }
+    ],
+    "approved": true,
+    "date": "2018-03-12T20:27:03.859Z",
+    "pdf":
+      "https://files.prolaera.com/companies/222222/users/29634de5-d8e4-46e8-9d72-8a91985b6ae8/certificates/39ae83ea-9545-4d88-9830-ac402f91b639.pdf",
+    "cert_id": "a9931aa9-0d3b-4ad0-969a-604d885e2da4",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "ASC 606 Updates",
+    "owner": 222222,
+    "sponsors_types": {},
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ny_cpa_2018": {
+        "hours": 1
+      },
+      "ca_cpa_2018": {
+        "tech": 1
+      },
+      "wa_cpa_2018": {
+        "tech": 1
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "sponsors": {
+      "nationalRegistry": "123456",
+      "qas": "123456",
+      "texas": "123456"
+    },
+    "delivery_uid": 1,
+    "delivery": "Live Course",
+    "hours": [
+      {
+        "category_id": "542eb280-a105-4973-adc6-17f093142099",
+        "subject_area": "Personal Development",
+        "credits": 0
+      }
+    ],
+    "first": "Evan",
+    "email": "evan+demo@prolaera.com",
+    "approved": true,
+    "date": "2017-12-22T19:00:25.000Z",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/b62f13a3-8daf-4cab-be4d-1e476014b9d2-46fa1736-4400-4f8a-9bde-836b24520b0b-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1.pdf",
+    "cert_id":
+      "b62f13a3-8daf-4cab-be4d-1e476014b9d2-46fa1736-4400-4f8a-9bde-836b24520b0b-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+    "course_id": "b62f13a3-8daf-4cab-be4d-1e476014b9d2",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "Leading by Example",
+    "event_id": "46fa1736-4400-4f8a-9bde-836b24520b0b",
+    "owner": 222222,
+    "pdf_uploaded": true,
+    "hours_applied": {}
+  },
+  {
+    "company_id": 222222,
+    "sponsor": "Evan Hiner",
+    "sponsors": {
+      "nationalRegistry": "123456",
+      "qas": "123456",
+      "texas": "123456"
+    },
+    "delivery_uid": 1,
+    "delivery": "Live Course",
+    "hours": [
+      {
+        "category_id": "73c43e1b-5336-4183-97a4-2a9e9cecccf2",
+        "subject_area": "Taxes",
+        "credits": 2
+      }
+    ],
+    "first": "Evan",
+    "email": "evan+demo@prolaera.com",
+    "approved": true,
+    "date": "2017-11-15T20:00:58.198Z",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/bb56f504-7dea-40cf-903d-006f65ddb5e0-9fade983-ff85-44a7-8113-bb48384953cc-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1.pdf",
+    "cert_id":
+      "bb56f504-7dea-40cf-903d-006f65ddb5e0-9fade983-ff85-44a7-8113-bb48384953cc-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+    "course_id": "bb56f504-7dea-40cf-903d-006f65ddb5e0",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "Tax Updates November 2017",
+    "event_id": "9fade983-ff85-44a7-8113-bb48384953cc",
+    "owner": 222222,
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ny_cpa_2017": {
+        "hours": 2
+      },
+      "ca_cpa_2018": {
+        "tech": 2
+      },
+      "wa_cpa_2017": {
+        "tech": 2
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "location": "Stuffed Cakes, 35th Avenue Southwest, Seattle, WA, USA",
+    "sponsors": {
+      "pennsylvania": "Pennsylvania",
+      "newYork": "New York",
+      "qAS": "QAS",
+      "allOthers": "All Others",
+      "name": "Prolaera",
+      "illinois": "Illinois",
+      "irs": "IRS Approval Code",
+      "texas": "Texas",
+      "nationalRegistry": "National Registry",
+      "newJersey": "New Jersey"
+    },
+    "delivery_uid": 1,
+    "delivery": "Live Course",
+    "hours": [
+      {
+        "category_id": "73c43e1b-5336-4183-97a4-2a9e9cecccf2",
+        "subject_area": "Taxes",
+        "credits": 2
+      }
+    ],
+    "first": "Evan",
+    "email": "evan+demo@prolaera.com",
+    "approved": true,
+    "date": "2017-12-18T18:30:00.000Z",
+    "pdf":
+      "https://files.prolaera.com/companies/222222/users/29634de5-d8e4-46e8-9d72-8a91985b6ae8/certificates/bb56f504-7dea-40cf-903d-006f65ddb5e0_737561d5-4368-40d7-9375-21b63d78160c_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1.pdf",
+    "cert_id":
+      "bb56f504-7dea-40cf-903d-006f65ddb5e0_737561d5-4368-40d7-9375-21b63d78160c_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1",
+    "course_id": "bb56f504-7dea-40cf-903d-006f65ddb5e0",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "Tax Updates November 2017",
+    "event_id": "737561d5-4368-40d7-9375-21b63d78160c",
+    "owner": 222222,
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ny_cpa_2017": {
+        "hours": 2
+      },
+      "ca_cpa_2018": {
+        "tech": 2
+      },
+      "wa_cpa_2017": {
+        "tech": 2
+      }
+    }
+  },
+  {
+    "hours_basic": {},
+    "sponsors": {},
+    "delivery_uid": 2,
+    "delivery": "Group-Internet / Webinar",
+    "hours": [
+      {
+        "category_id": "73c43e1b-5336-4183-97a4-2a9e9cecccf2",
+        "subject_area": "Taxes",
+        "credits": 2
+      }
+    ],
+    "first": "Evan",
+    "email": "evan+demo@prolaera.com",
+    "approved": true,
+    "date": "2017-08-29T16:49:25.000Z",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/c50ca826-81d7-44e7-ab74-8cc407d60c38.pdf",
+    "cert_id": "c50ca826-81d7-44e7-ab74-8cc407d60c38",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "last": "Hiner",
+    "cert": "Tax Changes for 2018",
+    "sponsors_types": {},
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ca_cpa_2017": {
+        "tech": 2
+      },
+      "wa_cpa_2017": {
+        "tech": 2
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "location": "111 South Jackson St, Seattle, WA 98104",
+    "hours_basic": {},
+    "sponsors": {
+      "nationalRegistry": "123456",
+      "qAS": "123456",
+      "texas": "123456"
+    },
+    "delivery_uid": 4,
+    "delivery": "Instruction",
+    "hours": [
+      {
+        "subject_area": "Auditing",
+        "category_id": "13948c5c-fb58-401e-ad09-54a727e11a03",
+        "credits": 3,
+        "yellowbook": true,
+        "fraud": true
+      }
+    ],
+    "first": "Evan",
+    "approved": true,
+    "date": "2017-09-01T07:00:00.000Z",
+    "pdf":
+      "https://files.prolaera.com/companies/222222/users/29634de5-d8e4-46e8-9d72-8a91985b6ae8/certificates/01601872-b0e0-4237-8d4d-ab7999f9b2e7.pdf",
+    "cert_id": "d131244e-188a-47a5-9828-5c93231dba88",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "Fraud in the Digital Age",
+    "owner": 222222,
+    "sponsors_types": {},
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ny_cpa_2017": {
+        "hours": 3
+      },
+      "ca_cpa_2017": {
+        "tech": 3
+      },
+      "yellowbook_80_2017": {
+        "proficiency": 3
+      },
+      "wa_cpa_2017": {
+        "tech": 3
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "hours_basic": {},
+    "sponsors": {},
+    "delivery_uid": 2,
+    "delivery": "Group-Internet / Webinar",
+    "hours": [
+      {
+        "subject_area": "Auditing",
+        "category_id": "13948c5c-fb58-401e-ad09-54a727e11a03",
+        "credits": 1,
+        "yellowbook": true,
+        "fraud": false,
+        "employeeBenefitPlan": false,
+        "$$hashKey": "object:986"
+      },
+      {
+        "subject_area": "Auditing - Governmental",
+        "category_id": "779f04a1-bae0-46de-9c7c-1d565c8decc2",
+        "$$hashKey": "object:987",
+        "credits": 1
+      }
+    ],
+    "first": "Evan",
+    "email": "evan+demo@prolaera.com",
+    "approve": true,
+    "approved": true,
+    "date": "2017-11-01T08:00:00.000Z",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/dcd259f2-578b-4ae0-8c82-5e2576eaeb6c.pdf",
+    "cert_id": "dcd259f2-578b-4ae0-8c82-5e2576eaeb6c",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "last": "Hiner",
+    "cert": "Demo Course",
+    "sponsors_types": {
+      "newYork": true
+    },
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ny_cpa_2017": {
+        "hours": 2
+      },
+      "ca_cpa_2017": {
+        "tech": 2
+      },
+      "yellowbook_80_2017": {
+        "proficiency": 1,
+        "yellowbook": 1
+      },
+      "wa_cpa_2017": {
+        "tech": 2
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "sponsor": "AICPA",
+    "hours_basic": {
+      "aicpa_cpa_pfs": [
+        {
+          "category": "financialPlanning",
+          "credits": 3
+        }
+      ],
+      "aicpa_cpa_abv": [
+        {
+          "category": "businessValuation",
+          "credits": 3
+        }
+      ]
+    },
+    "sponsors": {
+      "name": "AICPA"
+    },
+    "delivery_uid": 8,
+    "delivery": "QAS Self-Study",
+    "hours": [
+      {
+        "category_id": "92a86735-5fc7-4eb6-a42d-250b953f4dd2",
+        "subject_area": "Accounting",
+        "credits": 3
+      }
+    ],
+    "first": "Evan",
+    "email": "evan+demo@prolaera.com",
+    "approved": true,
+    "date": "2018-02-28T08:00:00.000Z",
+    "pdf":
+      "https://files.prolaera.com/companies/222222/users/29634de5-d8e4-46e8-9d72-8a91985b6ae8/certificates/e092e520-f490-4e4e-a3ee-6d7b15f28ca5.pdf",
+    "cert_id": "e092e520-f490-4e4e-a3ee-6d7b15f28ca5",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "last": "Hiner",
+    "cert": "QAS Self-Study Course",
+    "owner": 222222,
+    "sponsors_types": {},
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ny_cpa_2018": {
+        "hours": 3
+      },
+      "ca_cpa_2018": {
+        "tech": 3
+      },
+      "wa_cpa_2018": {
+        "tech": 3
+      }
+    }
+  },
+  {
+    "company_id": 1,
+    "hours_basic": {},
+    "sponsors": {},
+    "delivery_uid": 1,
+    "delivery": "Group-Live",
+    "hours": [
+      {
+        "category_id": "779f04a1-bae0-46de-9c7c-1d565c8decc2",
+        "subject_area": "Auditing - Governmental",
+        "credits": 3
+      }
+    ],
+    "first": "Evan",
+    "email": "evan+demo@prolaera.com",
+    "approved": true,
+    "date": "2017-05-20T07:00:00.000Z",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/e2d0d8b4-b5dd-46f6-adb5-e260651279a1.pdf",
+    "cert_id": "e2d0d8b4-b5dd-46f6-adb5-e260651279a1",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "last": "Hiner",
+    "cert": "Technology in Governmental Audits",
+    "owner": 222222,
+    "sponsors_types": {},
+    "pdf_uploaded": false,
+    "hours_applied": {
+      "ca_cpa_2017": {
+        "tech": 3
+      },
+      "yellowbook_80_2017": {
+        "yellowbook": 3
+      },
+      "wa_cpa_2017": {
+        "tech": 3
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "updates": [
+      {
+        "stage": "dev",
+        "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+        "time": 1530120220153
+      }
+    ],
+    "location": "Online",
+    "sponsor": "Prolaera",
+    "hours_basic": {},
+    "sponsors": {
+      "name": "Prolaera",
+      "nationalRegistry": "12345"
+    },
+    "delivery_uid": 0,
+    "delivery": "Self-Study",
+    "first": "Evan",
+    "hours": [
+      {
+        "subject_area": "Accounting",
+        "category_id": "92a86735-5fc7-4eb6-a42d-250b953f4dd2",
+        "credits": 2,
+        "fraud": true
+      }
+    ],
+    "approved": true,
+    "date": "2018-04-13T17:05:56.894Z",
+    "pdf":
+      "https://files.prolaera.com/companies/222222/users/29634de5-d8e4-46e8-9d72-8a91985b6ae8/certificates/f87ea9f7-c3b5-4d9a-9062-7794cc714665.pdf",
+    "cert_id": "e317d82a-b553-4331-b747-927f7e08e215",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "Communication for Modern Leaders",
+    "owner": 222222,
+    "sponsors_types": {},
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ny_cpa_2018": {
+        "hours": 2
+      },
+      "ca_cpa_2018": {
+        "tech": 2
+      },
+      "wa_cpa_2018": {
+        "tech": 2
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "updates": [
+      {
+        "stage": "dev",
+        "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+        "time": 1529473607356
+      }
+    ],
+    "sponsor": "CalCPA",
+    "hours_basic": {},
+    "sponsors": {
+      "name": "CalCPA"
+    },
+    "delivery_uid": 2,
+    "delivery": "Group-Internet / Webinar",
+    "email": "evan+demo@prolaera.com",
+    "first": "Evan",
+    "hours": [
+      {
+        "subject_area": "California Regulatory Review",
+        "category_id": "CA_CPA_REGULATORY_REVIEW",
+        "credits": 2
+      }
+    ],
+    "approved": true,
+    "date": "2014-05-06T08:00:00.000Z",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/f44ff873-02ab-4406-97bd-56ff9f32d560.pdf",
+    "cert_id": "f44ff873-02ab-4406-97bd-56ff9f32d560",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "California Regulatory Review",
+    "sponsors_types": {
+      "newYork": true,
+      "texas": true
+    },
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ca_cpa_2014": {
+        "regulatoryReview": 2
+      },
+      "ny_cpa_2014": {
+        "hours": 2
+      },
+      "wa_cpa_2014": {
+        "tech": 2
+      }
+    }
+  },
+  {
+    "company_id": 222222,
+    "updates": [
+      {
+        "stage": "dev",
+        "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+        "time": 1527634812150
+      },
+      {
+        "stage": "dev",
+        "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+        "time": 1527634820305
+      },
+      {
+        "stage": "dev",
+        "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+        "time": 1527634822785
+      },
+      {
+        "stage": "dev",
+        "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+        "time": 1527634826015
+      },
+      {
+        "stage": "dev",
+        "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+        "time": 1527634826171
+      },
+      {
+        "stage": "dev",
+        "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+        "time": 1527634826740
+      },
+      {
+        "stage": "dev",
+        "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+        "time": 1527634826873
+      },
+      {
+        "stage": "dev",
+        "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+        "time": 1527634826898
+      },
+      {
+        "stage": "dev",
+        "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+        "time": 1527634938061
+      },
+      {
+        "stage": "dev",
+        "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+        "time": 1527635041897
+      },
+      {
+        "stage": "dev",
+        "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+        "time": 1527635153305
+      },
+      {
+        "stage": "dev",
+        "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+        "time": 1527635329114
+      },
+      {
+        "stage": "dev",
+        "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+        "time": 1527635337818
+      },
+      {
+        "stage": "dev",
+        "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+        "time": 1527635592939
+      },
+      {
+        "stage": "dev",
+        "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+        "time": 1530120200143
+      }
+    ],
+    "sponsor": "WSCPA",
+    "hours_basic": {
+      "fa_napfa": [
+        {
+          "category": "financial_planning_ethics",
+          "credits": 2
+        },
+        {
+          "category": "hours",
+          "credits": 2
+        }
+      ]
+    },
+    "sponsors": {
+      "name": "WSCPA",
+      "nationalRegistry": "12345"
+    },
+    "delivery_uid": 2,
+    "delivery": "Group-Internet / Webinar",
+    "first": "Evan",
+    "hours": [
+      {
+        "category_id": "uncategorized",
+        "subject_area": "Uncategorized",
+        "credits": 4
+      }
+    ],
+    "approved": true,
+    "date": "2018-04-25T08:00:00.000Z",
+    "pdf":
+      "https://files.prolaera.com/companies/222222/users/29634de5-d8e4-46e8-9d72-8a91985b6ae8/certificates/f9cf23e4-0b89-45cb-93a3-b290511ce12e.pdf",
+    "cert_id": "f9cf23e4-0b89-45cb-93a3-b290511ce12e",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "Controller’s Update: Today’s Latest Trend",
+    "owner": 222222,
+    "sponsors_types": {},
+    "pdf_uploaded": true,
+    "hours_applied": {}
+  },
+  {
+    "company_id": 222222,
+    "updates": [
+      {
+        "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+        "time": 1512024750601
+      }
+    ],
+    "location": "Webinar",
+    "pdf_upload": false,
+    "hours_basic": {},
+    "sponsors": {},
+    "archive": false,
+    "delivery_uid": 2,
+    "delivery": "Group-Internet / Webinar",
+    "email": "evan+demo@prolaera.com",
+    "first": "Evan",
+    "hours": [
+      {
+        "category_id": "542eb280-a105-4973-adc6-17f093142099",
+        "subject_area": "Personal Development",
+        "credits": 1
+      }
+    ],
+    "approved": true,
+    "date": "2017-10-09T07:00:00.000Z",
+    "pdf":
+      "https://s3-us-west-2.amazonaws.com/prolaera/external-certs/ff093c3d-7a82-428a-a8f0-25c0c37c715d.pdf",
+    "cert_id": "ff093c3d-7a82-428a-a8f0-25c0c37c715d",
+    "last": "Hiner",
+    "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+    "cert": "Group External Event",
+    "event_id": "ff093c3d-7a82-428a-a8f0-25c0c37c715d",
+    "sponsors_types": {
+      "nationalRegistry": true
+    },
+    "pdf_uploaded": true,
+    "hours_applied": {
+      "ny_cpa_2017": {
+        "hours": 1
+      },
+      "ca_cpa_2017": {
+        "nontech": 1
+      },
+      "wa_cpa_2017": {
+        "nontech": 1
+      }
+    }
+  }
+]

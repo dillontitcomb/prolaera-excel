@@ -1,0 +1,1300 @@
+[
+  {
+    "name": "New York CPA",
+    "date": "2017-12-31T08:00:00.000Z",
+    "license_number": "123123123",
+    "reg_id": "ny_cpa",
+    "cycleYears": 1,
+    "cycleHours": {
+      "actual": 41.5,
+      "applied": 41.5,
+      "limits": 41.5,
+      "totalHours": 40,
+      "completed": 41.5
+    },
+    "years": {
+      "2017": {
+        "year": "2017",
+        "lic_yr": "ny_cpa_2017",
+        "cert_ids": [
+          "9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc",
+          "9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc",
+          "9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc",
+          "8fc1e500-01ef-4b98-82e8-efd2958ed2aa-a503fae5-b4a8-4fe0-a7ec-5a40deff0380-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+          "31b93488-f6ca-4754-b6aa-103b30d46da7-2bdce7ee-d5a5-46ad-a011-3e2b3ad12253-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+          "31b93488-f6ca-4754-b6aa-103b30d46da7-2bdce7ee-d5a5-46ad-a011-3e2b3ad12253-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+          "d131244e-188a-47a5-9828-5c93231dba88",
+          "145d67d6-16e4-43b4-8b7e-5189927ef8c2-41fa4b48-9639-4e9e-8709-7e5cbf311175-29634de5-d8e4-46e8-9d72-8a91985b6ae8-4",
+          "9f4f4ed1-360c-4f69-86ca-a6132ad27164-4dea0a6e-e498-4b10-9344-770736244b51-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+          "ff093c3d-7a82-428a-a8f0-25c0c37c715d",
+          "dcd259f2-578b-4ae0-8c82-5e2576eaeb6c",
+          "dcd259f2-578b-4ae0-8c82-5e2576eaeb6c",
+          "bb56f504-7dea-40cf-903d-006f65ddb5e0-9fade983-ff85-44a7-8113-bb48384953cc-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+          "79a925d6-1819-45e2-a6f2-ad1a7787f4f9-0cf43aae-6554-4079-a658-bf9aebb23415-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+          "79a925d6-1819-45e2-a6f2-ad1a7787f4f9-0cf43aae-6554-4079-a658-bf9aebb23415-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+          "400b2e80-7d76-429c-b378-12755c157c2a_a7e6bcdd-a0cf-4eb4-9b44-65f06c5d1a7b_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1",
+          "bb56f504-7dea-40cf-903d-006f65ddb5e0_737561d5-4368-40d7-9375-21b63d78160c_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1"
+        ],
+        "certificates_applied": {
+          "400b2e80-7d76-429c-b378-12755c157c2a_a7e6bcdd-a0cf-4eb4-9b44-65f06c5d1a7b_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1": {
+            "hours": 3
+          },
+          "9f4f4ed1-360c-4f69-86ca-a6132ad27164-4dea0a6e-e498-4b10-9344-770736244b51-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1": {
+            "hours": 1.5
+          },
+          "79a925d6-1819-45e2-a6f2-ad1a7787f4f9-0cf43aae-6554-4079-a658-bf9aebb23415-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1": {
+            "hours": 2
+          },
+          "ff093c3d-7a82-428a-a8f0-25c0c37c715d": {
+            "hours": 1
+          },
+          "bb56f504-7dea-40cf-903d-006f65ddb5e0-9fade983-ff85-44a7-8113-bb48384953cc-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1": {
+            "hours": 2
+          },
+          "31b93488-f6ca-4754-b6aa-103b30d46da7-2bdce7ee-d5a5-46ad-a011-3e2b3ad12253-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1": {
+            "hours": 4
+          },
+          "145d67d6-16e4-43b4-8b7e-5189927ef8c2-41fa4b48-9639-4e9e-8709-7e5cbf311175-29634de5-d8e4-46e8-9d72-8a91985b6ae8-4": {
+            "hours": 3
+          },
+          "bb56f504-7dea-40cf-903d-006f65ddb5e0_737561d5-4368-40d7-9375-21b63d78160c_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1": {
+            "hours": 2
+          },
+          "9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc": {
+            "hours": 16
+          },
+          "8fc1e500-01ef-4b98-82e8-efd2958ed2aa-a503fae5-b4a8-4fe0-a7ec-5a40deff0380-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1": {
+            "hours": 2
+          },
+          "d131244e-188a-47a5-9828-5c93231dba88": {
+            "hours": 3
+          },
+          "dcd259f2-578b-4ae0-8c82-5e2576eaeb6c": {
+            "hours": 2
+          }
+        },
+        "completed": 41.5
+      }
+    },
+    "hour_categories": {
+      "ethics_state": {
+        "name": "ethics_state",
+        "cycle": {
+          "actual": 0,
+          "limits": 0,
+          "completed": 0,
+          "cert_ids": [],
+          "min": 4
+        }
+      },
+      "hours": {
+        "name": "hours",
+        "cycle": {
+          "actual": 41.5,
+          "limits": 41.5,
+          "completed": 41.5,
+          "cert_ids": [
+            "9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc",
+            "9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc",
+            "9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc",
+            "8fc1e500-01ef-4b98-82e8-efd2958ed2aa-a503fae5-b4a8-4fe0-a7ec-5a40deff0380-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+            "31b93488-f6ca-4754-b6aa-103b30d46da7-2bdce7ee-d5a5-46ad-a011-3e2b3ad12253-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+            "31b93488-f6ca-4754-b6aa-103b30d46da7-2bdce7ee-d5a5-46ad-a011-3e2b3ad12253-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+            "d131244e-188a-47a5-9828-5c93231dba88",
+            "145d67d6-16e4-43b4-8b7e-5189927ef8c2-41fa4b48-9639-4e9e-8709-7e5cbf311175-29634de5-d8e4-46e8-9d72-8a91985b6ae8-4",
+            "9f4f4ed1-360c-4f69-86ca-a6132ad27164-4dea0a6e-e498-4b10-9344-770736244b51-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+            "ff093c3d-7a82-428a-a8f0-25c0c37c715d",
+            "dcd259f2-578b-4ae0-8c82-5e2576eaeb6c",
+            "dcd259f2-578b-4ae0-8c82-5e2576eaeb6c",
+            "bb56f504-7dea-40cf-903d-006f65ddb5e0-9fade983-ff85-44a7-8113-bb48384953cc-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+            "79a925d6-1819-45e2-a6f2-ad1a7787f4f9-0cf43aae-6554-4079-a658-bf9aebb23415-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+            "79a925d6-1819-45e2-a6f2-ad1a7787f4f9-0cf43aae-6554-4079-a658-bf9aebb23415-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+            "400b2e80-7d76-429c-b378-12755c157c2a_a7e6bcdd-a0cf-4eb4-9b44-65f06c5d1a7b_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1",
+            "bb56f504-7dea-40cf-903d-006f65ddb5e0_737561d5-4368-40d7-9375-21b63d78160c_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1"
+          ],
+          "min": 36
+        }
+      }
+    },
+    "span": {
+      "ethics_state": {
+        "name": "ethics_state",
+        "cycle": {
+          "actual": 0,
+          "limits": 0,
+          "completed": 0,
+          "years": [
+            {
+              "date": "2017-12-31T08:00:00.000Z",
+              "hours": 0,
+              "cyc_yr": "ny_cpa_2017",
+              "cert_ids": []
+            }
+          ],
+          "cert_ids": [],
+          "cycle": 3,
+          "min": 4
+        }
+      }
+    }
+  },
+  {
+    "name": "Washington CPA",
+    "date": "2016-12-31T08:00:00.000Z",
+    "license_number": "123456",
+    "reg_id": "wa_cpa",
+    "cycleYears": 3,
+    "cycleHours": {
+      "actual": 2,
+      "applied": 2,
+      "limits": 2,
+      "totalHours": 120,
+      "completed": 2
+    },
+    "years": {
+      "2014": {
+        "year": "2014",
+        "lic_yr": "wa_cpa_2014",
+        "cert_ids": ["f44ff873-02ab-4406-97bd-56ff9f32d560"],
+        "certificates_applied": {
+          "f44ff873-02ab-4406-97bd-56ff9f32d560": {
+            "tech": 2
+          }
+        },
+        "completed": 2
+      },
+      "2015": {
+        "year": "2015",
+        "lic_yr": "wa_cpa_2015",
+        "cert_ids": [],
+        "certificates_applied": {},
+        "completed": 0
+      },
+      "2016": {
+        "year": "2016",
+        "lic_yr": "wa_cpa_2016",
+        "cert_ids": [],
+        "certificates_applied": {},
+        "completed": 0
+      }
+    },
+    "hour_categories": {
+      "tech": {
+        "name": "tech",
+        "cycle": {
+          "actual": 2,
+          "limits": 2,
+          "completed": 2,
+          "cert_ids": ["f44ff873-02ab-4406-97bd-56ff9f32d560"]
+        }
+      },
+      "nontech": {
+        "name": "nontech",
+        "cycle": {
+          "actual": 0,
+          "limits": 0,
+          "completed": 0,
+          "cert_ids": [],
+          "max": 24
+        }
+      },
+      "ethics_state": {
+        "name": "ethics_state",
+        "cycle": {
+          "actual": 0,
+          "limits": 0,
+          "completed": 0,
+          "cert_ids": [],
+          "min": 4
+        }
+      }
+    }
+  },
+  {
+    "name": "Yellowbook 80-hour",
+    "date": "2014-12-31T08:00:00.000Z",
+    "reg_id": "yellowbook_80",
+    "cycleYears": 2,
+    "cycleHours": {
+      "actual": 0,
+      "applied": 0,
+      "limits": 0,
+      "totalHours": 80,
+      "completed": 0
+    },
+    "years": {
+      "2014": {
+        "year": "2014",
+        "lic_yr": "yellowbook_80_2014",
+        "cert_ids": [],
+        "certificates_applied": {},
+        "completed": 0,
+        "min": 20
+      }
+    },
+    "hour_categories": {
+      "yellowbook": {
+        "name": "yellowbook",
+        "cycle": {
+          "actual": 0,
+          "limits": 0,
+          "completed": 0,
+          "cert_ids": [],
+          "min": 24
+        }
+      },
+      "proficiency": {
+        "name": "proficiency",
+        "cycle": {
+          "actual": 0,
+          "limits": 0,
+          "completed": 0,
+          "cert_ids": [],
+          "min": 56
+        }
+      }
+    }
+  },
+  {
+    "name": "Washington CPA",
+    "date": "2019-12-31T08:00:00.000Z",
+    "license_number": "123456",
+    "reg_id": "wa_cpa",
+    "cycleYears": 3,
+    "cycleHours": {
+      "actual": 107.5,
+      "applied": 107.5,
+      "limits": 107.5,
+      "totalHours": 120,
+      "completed": 107.5
+    },
+    "years": {
+      "2017": {
+        "year": "2017",
+        "lic_yr": "wa_cpa_2017",
+        "cert_ids": [
+          "9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc",
+          "9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc",
+          "e2d0d8b4-b5dd-46f6-adb5-e260651279a1",
+          "8fc1e500-01ef-4b98-82e8-efd2958ed2aa-a503fae5-b4a8-4fe0-a7ec-5a40deff0380-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+          "8fc1e500-01ef-4b98-82e8-efd2958ed2aa-9da15ee5-c7e2-45da-8e6b-77a14bb44210-29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+          "0ae12647-424d-477d-bd8e-da5a4f7ef12f",
+          "31b93488-f6ca-4754-b6aa-103b30d46da7-2bdce7ee-d5a5-46ad-a011-3e2b3ad12253-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+          "31b93488-f6ca-4754-b6aa-103b30d46da7-2bdce7ee-d5a5-46ad-a011-3e2b3ad12253-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+          "c50ca826-81d7-44e7-ab74-8cc407d60c38",
+          "d131244e-188a-47a5-9828-5c93231dba88",
+          "145d67d6-16e4-43b4-8b7e-5189927ef8c2-41fa4b48-9639-4e9e-8709-7e5cbf311175-29634de5-d8e4-46e8-9d72-8a91985b6ae8-4",
+          "9f4f4ed1-360c-4f69-86ca-a6132ad27164-4dea0a6e-e498-4b10-9344-770736244b51-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+          "dcd259f2-578b-4ae0-8c82-5e2576eaeb6c",
+          "dcd259f2-578b-4ae0-8c82-5e2576eaeb6c",
+          "866544a8-f63f-4b68-8a4f-d61b7412e28f",
+          "bb56f504-7dea-40cf-903d-006f65ddb5e0-9fade983-ff85-44a7-8113-bb48384953cc-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+          "400b2e80-7d76-429c-b378-12755c157c2a-3540671e-8166-45de-b31a-20286a9bf264-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+          "0b5cf582-0198-4964-8dc2-d59107edd146",
+          "79a925d6-1819-45e2-a6f2-ad1a7787f4f9-0cf43aae-6554-4079-a658-bf9aebb23415-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+          "402655fd-0305-4197-a895-8fbf1db7314e",
+          "3e82ea4a-dc2a-4078-bdfc-f3de31f3d9c9",
+          "9e974150-e9e8-4945-9f34-3f251babed03",
+          "400b2e80-7d76-429c-b378-12755c157c2a_a7e6bcdd-a0cf-4eb4-9b44-65f06c5d1a7b_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1",
+          "653bdfba-5edb-41b5-983e-ec4dcfd28190",
+          "bb56f504-7dea-40cf-903d-006f65ddb5e0_737561d5-4368-40d7-9375-21b63d78160c_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1",
+          "9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc",
+          "4dbc7d8b-6f2d-4568-8af9-d02edd92a089-f4234cda-b6bb-45f7-9bf4-c89d88cafe1e-29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+          "4dbc7d8b-6f2d-4568-8af9-d02edd92a089-f4234cda-b6bb-45f7-9bf4-c89d88cafe1e-29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+          "ff093c3d-7a82-428a-a8f0-25c0c37c715d",
+          "2173771a-2c78-4e4d-be8e-32782414f833"
+        ],
+        "certificates_applied": {
+          "8fc1e500-01ef-4b98-82e8-efd2958ed2aa-9da15ee5-c7e2-45da-8e6b-77a14bb44210-29634de5-d8e4-46e8-9d72-8a91985b6ae8": {
+            "tech": 1.5
+          },
+          "145d67d6-16e4-43b4-8b7e-5189927ef8c2-41fa4b48-9639-4e9e-8709-7e5cbf311175-29634de5-d8e4-46e8-9d72-8a91985b6ae8-4": {
+            "tech": 3
+          },
+          "9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc": {
+            "tech": 13,
+            "nontech": 3
+          },
+          "4dbc7d8b-6f2d-4568-8af9-d02edd92a089-f4234cda-b6bb-45f7-9bf4-c89d88cafe1e-29634de5-d8e4-46e8-9d72-8a91985b6ae8": {
+            "nontech": 2
+          },
+          "400b2e80-7d76-429c-b378-12755c157c2a-3540671e-8166-45de-b31a-20286a9bf264-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1": {
+            "tech": 2.5
+          },
+          "2173771a-2c78-4e4d-be8e-32782414f833": {
+            "ethics_state": 4
+          },
+          "9e974150-e9e8-4945-9f34-3f251babed03": {
+            "tech": 2
+          },
+          "e2d0d8b4-b5dd-46f6-adb5-e260651279a1": {
+            "tech": 3
+          },
+          "400b2e80-7d76-429c-b378-12755c157c2a_a7e6bcdd-a0cf-4eb4-9b44-65f06c5d1a7b_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1": {
+            "tech": 3
+          },
+          "3e82ea4a-dc2a-4078-bdfc-f3de31f3d9c9": {
+            "tech": 2
+          },
+          "79a925d6-1819-45e2-a6f2-ad1a7787f4f9-0cf43aae-6554-4079-a658-bf9aebb23415-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1": {
+            "tech": 2
+          },
+          "bb56f504-7dea-40cf-903d-006f65ddb5e0-9fade983-ff85-44a7-8113-bb48384953cc-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1": {
+            "tech": 2
+          },
+          "0b5cf582-0198-4964-8dc2-d59107edd146": {
+            "tech": 2
+          },
+          "bb56f504-7dea-40cf-903d-006f65ddb5e0_737561d5-4368-40d7-9375-21b63d78160c_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1": {
+            "tech": 2
+          },
+          "0ae12647-424d-477d-bd8e-da5a4f7ef12f": {
+            "tech": 1
+          },
+          "866544a8-f63f-4b68-8a4f-d61b7412e28f": {
+            "tech": 16
+          },
+          "653bdfba-5edb-41b5-983e-ec4dcfd28190": {
+            "tech": 1
+          },
+          "402655fd-0305-4197-a895-8fbf1db7314e": {
+            "tech": 1
+          },
+          "31b93488-f6ca-4754-b6aa-103b30d46da7-2bdce7ee-d5a5-46ad-a011-3e2b3ad12253-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1": {
+            "tech": 4
+          },
+          "dcd259f2-578b-4ae0-8c82-5e2576eaeb6c": {
+            "tech": 2
+          },
+          "c50ca826-81d7-44e7-ab74-8cc407d60c38": {
+            "tech": 2
+          },
+          "9f4f4ed1-360c-4f69-86ca-a6132ad27164-4dea0a6e-e498-4b10-9344-770736244b51-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1": {
+            "tech": 1.5
+          },
+          "ff093c3d-7a82-428a-a8f0-25c0c37c715d": {
+            "nontech": 1
+          },
+          "8fc1e500-01ef-4b98-82e8-efd2958ed2aa-a503fae5-b4a8-4fe0-a7ec-5a40deff0380-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1": {
+            "tech": 2
+          },
+          "d131244e-188a-47a5-9828-5c93231dba88": {
+            "tech": 3
+          }
+        },
+        "completed": 81.5
+      },
+      "2018": {
+        "year": "2018",
+        "lic_yr": "wa_cpa_2018",
+        "cert_ids": [
+          "72be8671-7279-4c94-9b39-f3cf6b50ab71",
+          "07e4632d-9215-4c2c-a52a-797035907b3d",
+          "0b5cf582-0198-4964-8dc2-d59107edd146_29634de5-d8e4-46e8-9d72-8a91985b6ae8_0",
+          "400b2e80-7d76-429c-b378-12755c157c2a_ebd0ee65-4e6f-40b4-9d2c-635fab25646c_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1",
+          "77b807e7-806a-49b7-9263-cdd3930990ae",
+          "e092e520-f490-4e4e-a3ee-6d7b15f28ca5",
+          "a9931aa9-0d3b-4ad0-969a-604d885e2da4",
+          "e317d82a-b553-4331-b747-927f7e08e215",
+          "35ce1892-476a-4b75-b2ab-8415ede4017a",
+          "36c49df8-bb13-48df-ac57-327b35a568fd",
+          "6f770182-3187-4966-9e3e-d603b038960f"
+        ],
+        "certificates_applied": {
+          "0b5cf582-0198-4964-8dc2-d59107edd146_29634de5-d8e4-46e8-9d72-8a91985b6ae8_0": {
+            "tech": 2
+          },
+          "a9931aa9-0d3b-4ad0-969a-604d885e2da4": {
+            "tech": 1
+          },
+          "72be8671-7279-4c94-9b39-f3cf6b50ab71": {
+            "tech": 2
+          },
+          "6f770182-3187-4966-9e3e-d603b038960f": {
+            "nontech": 4
+          },
+          "07e4632d-9215-4c2c-a52a-797035907b3d": {
+            "tech": 1
+          },
+          "36c49df8-bb13-48df-ac57-327b35a568fd": {
+            "tech": 2
+          },
+          "e317d82a-b553-4331-b747-927f7e08e215": {
+            "tech": 2
+          },
+          "400b2e80-7d76-429c-b378-12755c157c2a_ebd0ee65-4e6f-40b4-9d2c-635fab25646c_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1": {
+            "tech": 2
+          },
+          "e092e520-f490-4e4e-a3ee-6d7b15f28ca5": {
+            "tech": 3
+          },
+          "77b807e7-806a-49b7-9263-cdd3930990ae": {
+            "tech": 4
+          },
+          "35ce1892-476a-4b75-b2ab-8415ede4017a": {
+            "tech": 3
+          }
+        },
+        "completed": 26
+      },
+      "2019": {
+        "year": "2019",
+        "lic_yr": "wa_cpa_2019",
+        "cert_ids": [],
+        "certificates_applied": {},
+        "completed": 0
+      }
+    },
+    "hour_categories": {
+      "tech": {
+        "name": "tech",
+        "cycle": {
+          "actual": 93.5,
+          "limits": 93.5,
+          "completed": 93.5,
+          "cert_ids": [
+            "72be8671-7279-4c94-9b39-f3cf6b50ab71",
+            "07e4632d-9215-4c2c-a52a-797035907b3d",
+            "0b5cf582-0198-4964-8dc2-d59107edd146_29634de5-d8e4-46e8-9d72-8a91985b6ae8_0",
+            "400b2e80-7d76-429c-b378-12755c157c2a_ebd0ee65-4e6f-40b4-9d2c-635fab25646c_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1",
+            "77b807e7-806a-49b7-9263-cdd3930990ae",
+            "e092e520-f490-4e4e-a3ee-6d7b15f28ca5",
+            "a9931aa9-0d3b-4ad0-969a-604d885e2da4",
+            "e317d82a-b553-4331-b747-927f7e08e215",
+            "35ce1892-476a-4b75-b2ab-8415ede4017a",
+            "36c49df8-bb13-48df-ac57-327b35a568fd",
+            "9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc",
+            "9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc",
+            "e2d0d8b4-b5dd-46f6-adb5-e260651279a1",
+            "8fc1e500-01ef-4b98-82e8-efd2958ed2aa-a503fae5-b4a8-4fe0-a7ec-5a40deff0380-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+            "8fc1e500-01ef-4b98-82e8-efd2958ed2aa-9da15ee5-c7e2-45da-8e6b-77a14bb44210-29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+            "0ae12647-424d-477d-bd8e-da5a4f7ef12f",
+            "31b93488-f6ca-4754-b6aa-103b30d46da7-2bdce7ee-d5a5-46ad-a011-3e2b3ad12253-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+            "31b93488-f6ca-4754-b6aa-103b30d46da7-2bdce7ee-d5a5-46ad-a011-3e2b3ad12253-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+            "c50ca826-81d7-44e7-ab74-8cc407d60c38",
+            "d131244e-188a-47a5-9828-5c93231dba88",
+            "145d67d6-16e4-43b4-8b7e-5189927ef8c2-41fa4b48-9639-4e9e-8709-7e5cbf311175-29634de5-d8e4-46e8-9d72-8a91985b6ae8-4",
+            "9f4f4ed1-360c-4f69-86ca-a6132ad27164-4dea0a6e-e498-4b10-9344-770736244b51-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+            "dcd259f2-578b-4ae0-8c82-5e2576eaeb6c",
+            "dcd259f2-578b-4ae0-8c82-5e2576eaeb6c",
+            "866544a8-f63f-4b68-8a4f-d61b7412e28f",
+            "bb56f504-7dea-40cf-903d-006f65ddb5e0-9fade983-ff85-44a7-8113-bb48384953cc-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+            "400b2e80-7d76-429c-b378-12755c157c2a-3540671e-8166-45de-b31a-20286a9bf264-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+            "0b5cf582-0198-4964-8dc2-d59107edd146",
+            "79a925d6-1819-45e2-a6f2-ad1a7787f4f9-0cf43aae-6554-4079-a658-bf9aebb23415-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+            "402655fd-0305-4197-a895-8fbf1db7314e",
+            "3e82ea4a-dc2a-4078-bdfc-f3de31f3d9c9",
+            "9e974150-e9e8-4945-9f34-3f251babed03",
+            "400b2e80-7d76-429c-b378-12755c157c2a_a7e6bcdd-a0cf-4eb4-9b44-65f06c5d1a7b_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1",
+            "653bdfba-5edb-41b5-983e-ec4dcfd28190",
+            "bb56f504-7dea-40cf-903d-006f65ddb5e0_737561d5-4368-40d7-9375-21b63d78160c_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1"
+          ]
+        }
+      },
+      "nontech": {
+        "name": "nontech",
+        "cycle": {
+          "actual": 10,
+          "limits": 10,
+          "completed": 10,
+          "cert_ids": [
+            "6f770182-3187-4966-9e3e-d603b038960f",
+            "9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc",
+            "4dbc7d8b-6f2d-4568-8af9-d02edd92a089-f4234cda-b6bb-45f7-9bf4-c89d88cafe1e-29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+            "4dbc7d8b-6f2d-4568-8af9-d02edd92a089-f4234cda-b6bb-45f7-9bf4-c89d88cafe1e-29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+            "ff093c3d-7a82-428a-a8f0-25c0c37c715d"
+          ],
+          "max": 24
+        }
+      },
+      "ethics_state": {
+        "name": "ethics_state",
+        "cycle": {
+          "actual": 4,
+          "limits": 4,
+          "completed": 4,
+          "cert_ids": ["2173771a-2c78-4e4d-be8e-32782414f833"],
+          "min": 4
+        }
+      }
+    }
+  },
+  {
+    "name": "New York CPA",
+    "date": "2014-12-31T08:00:00.000Z",
+    "license_number": "123123123",
+    "reg_id": "ny_cpa",
+    "cycleYears": 1,
+    "cycleHours": {
+      "actual": 2,
+      "applied": 2,
+      "limits": 2,
+      "totalHours": 40,
+      "completed": 2
+    },
+    "years": {
+      "2014": {
+        "year": "2014",
+        "lic_yr": "ny_cpa_2014",
+        "cert_ids": ["f44ff873-02ab-4406-97bd-56ff9f32d560"],
+        "certificates_applied": {
+          "f44ff873-02ab-4406-97bd-56ff9f32d560": {
+            "hours": 2
+          }
+        },
+        "completed": 2
+      }
+    },
+    "hour_categories": {
+      "ethics_state": {
+        "name": "ethics_state",
+        "cycle": {
+          "actual": 0,
+          "limits": 0,
+          "completed": 0,
+          "cert_ids": [],
+          "min": 4
+        }
+      },
+      "hours": {
+        "name": "hours",
+        "cycle": {
+          "actual": 2,
+          "limits": 2,
+          "completed": 2,
+          "cert_ids": ["f44ff873-02ab-4406-97bd-56ff9f32d560"],
+          "min": 36
+        }
+      }
+    },
+    "span": {
+      "ethics_state": {
+        "name": "ethics_state",
+        "cycle": {
+          "actual": 0,
+          "limits": 0,
+          "completed": 0,
+          "years": [
+            {
+              "date": "2014-12-31T08:00:00.000Z",
+              "hours": 0,
+              "cyc_yr": "ny_cpa_2014",
+              "cert_ids": []
+            }
+          ],
+          "cert_ids": [],
+          "cycle": 3,
+          "min": 4
+        }
+      }
+    }
+  },
+  {
+    "name": "New York CPA",
+    "date": "2018-12-31T08:00:00.000Z",
+    "license_number": "123123123",
+    "reg_id": "ny_cpa",
+    "cycleYears": 1,
+    "cycleHours": {
+      "actual": 24,
+      "applied": 24,
+      "limits": 24,
+      "totalHours": 40,
+      "completed": 24
+    },
+    "years": {
+      "2018": {
+        "year": "2018",
+        "lic_yr": "ny_cpa_2018",
+        "cert_ids": [
+          "07e4632d-9215-4c2c-a52a-797035907b3d",
+          "0b5cf582-0198-4964-8dc2-d59107edd146_29634de5-d8e4-46e8-9d72-8a91985b6ae8_0",
+          "400b2e80-7d76-429c-b378-12755c157c2a_ebd0ee65-4e6f-40b4-9d2c-635fab25646c_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1",
+          "77b807e7-806a-49b7-9263-cdd3930990ae",
+          "e092e520-f490-4e4e-a3ee-6d7b15f28ca5",
+          "a9931aa9-0d3b-4ad0-969a-604d885e2da4",
+          "e317d82a-b553-4331-b747-927f7e08e215",
+          "35ce1892-476a-4b75-b2ab-8415ede4017a",
+          "36c49df8-bb13-48df-ac57-327b35a568fd",
+          "6f770182-3187-4966-9e3e-d603b038960f"
+        ],
+        "certificates_applied": {
+          "0b5cf582-0198-4964-8dc2-d59107edd146_29634de5-d8e4-46e8-9d72-8a91985b6ae8_0": {
+            "hours": 2
+          },
+          "a9931aa9-0d3b-4ad0-969a-604d885e2da4": {
+            "hours": 1
+          },
+          "6f770182-3187-4966-9e3e-d603b038960f": {
+            "ethics_state": 4
+          },
+          "07e4632d-9215-4c2c-a52a-797035907b3d": {
+            "hours": 1
+          },
+          "36c49df8-bb13-48df-ac57-327b35a568fd": {
+            "hours": 2
+          },
+          "e317d82a-b553-4331-b747-927f7e08e215": {
+            "hours": 2
+          },
+          "400b2e80-7d76-429c-b378-12755c157c2a_ebd0ee65-4e6f-40b4-9d2c-635fab25646c_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1": {
+            "hours": 2
+          },
+          "e092e520-f490-4e4e-a3ee-6d7b15f28ca5": {
+            "hours": 3
+          },
+          "77b807e7-806a-49b7-9263-cdd3930990ae": {
+            "hours": 4
+          },
+          "35ce1892-476a-4b75-b2ab-8415ede4017a": {
+            "hours": 3
+          }
+        },
+        "completed": 24
+      }
+    },
+    "hour_categories": {
+      "ethics_state": {
+        "name": "ethics_state",
+        "cycle": {
+          "actual": 4,
+          "limits": 4,
+          "completed": 4,
+          "cert_ids": ["6f770182-3187-4966-9e3e-d603b038960f"],
+          "min": 4
+        }
+      },
+      "hours": {
+        "name": "hours",
+        "cycle": {
+          "actual": 20,
+          "limits": 20,
+          "completed": 20,
+          "cert_ids": [
+            "07e4632d-9215-4c2c-a52a-797035907b3d",
+            "0b5cf582-0198-4964-8dc2-d59107edd146_29634de5-d8e4-46e8-9d72-8a91985b6ae8_0",
+            "400b2e80-7d76-429c-b378-12755c157c2a_ebd0ee65-4e6f-40b4-9d2c-635fab25646c_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1",
+            "77b807e7-806a-49b7-9263-cdd3930990ae",
+            "e092e520-f490-4e4e-a3ee-6d7b15f28ca5",
+            "a9931aa9-0d3b-4ad0-969a-604d885e2da4",
+            "e317d82a-b553-4331-b747-927f7e08e215",
+            "35ce1892-476a-4b75-b2ab-8415ede4017a",
+            "36c49df8-bb13-48df-ac57-327b35a568fd"
+          ],
+          "min": 36
+        }
+      }
+    },
+    "span": {
+      "ethics_state": {
+        "name": "ethics_state",
+        "cycle": {
+          "actual": 4,
+          "limits": 4,
+          "completed": 4,
+          "years": [
+            {
+              "date": "2018-12-31T08:00:00.000Z",
+              "hours": 4,
+              "cyc_yr": "ny_cpa_2018",
+              "cert_ids": ["6f770182-3187-4966-9e3e-d603b038960f"]
+            },
+            {
+              "date": "2017-12-31T08:00:00.000Z",
+              "hours": 0,
+              "cyc_yr": "ny_cpa_2017",
+              "cert_ids": []
+            }
+          ],
+          "cert_ids": ["6f770182-3187-4966-9e3e-d603b038960f"],
+          "cycle": 3,
+          "min": 4
+        }
+      }
+    }
+  },
+  {
+    "name": "California CPA",
+    "date": "2017-11-01T08:00:00.000Z",
+    "license_number": "123456f",
+    "reg_id": "ca_cpa",
+    "cycleYears": 2,
+    "cycleHours": {
+      "actual": 46,
+      "applied": 46,
+      "limits": 46,
+      "totalHours": 80,
+      "completed": 46
+    },
+    "years": {
+      "2017": {
+        "year": "2017",
+        "lic_yr": "ca_cpa_2017",
+        "cert_ids": [
+          "9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc",
+          "9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc",
+          "e2d0d8b4-b5dd-46f6-adb5-e260651279a1",
+          "8fc1e500-01ef-4b98-82e8-efd2958ed2aa-a503fae5-b4a8-4fe0-a7ec-5a40deff0380-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+          "8fc1e500-01ef-4b98-82e8-efd2958ed2aa-9da15ee5-c7e2-45da-8e6b-77a14bb44210-29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+          "0ae12647-424d-477d-bd8e-da5a4f7ef12f",
+          "31b93488-f6ca-4754-b6aa-103b30d46da7-2bdce7ee-d5a5-46ad-a011-3e2b3ad12253-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+          "31b93488-f6ca-4754-b6aa-103b30d46da7-2bdce7ee-d5a5-46ad-a011-3e2b3ad12253-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+          "c50ca826-81d7-44e7-ab74-8cc407d60c38",
+          "d131244e-188a-47a5-9828-5c93231dba88",
+          "145d67d6-16e4-43b4-8b7e-5189927ef8c2-41fa4b48-9639-4e9e-8709-7e5cbf311175-29634de5-d8e4-46e8-9d72-8a91985b6ae8-4",
+          "9f4f4ed1-360c-4f69-86ca-a6132ad27164-4dea0a6e-e498-4b10-9344-770736244b51-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+          "dcd259f2-578b-4ae0-8c82-5e2576eaeb6c",
+          "dcd259f2-578b-4ae0-8c82-5e2576eaeb6c",
+          "2173771a-2c78-4e4d-be8e-32782414f833",
+          "9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc",
+          "4dbc7d8b-6f2d-4568-8af9-d02edd92a089-f4234cda-b6bb-45f7-9bf4-c89d88cafe1e-29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+          "4dbc7d8b-6f2d-4568-8af9-d02edd92a089-f4234cda-b6bb-45f7-9bf4-c89d88cafe1e-29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+          "ff093c3d-7a82-428a-a8f0-25c0c37c715d"
+        ],
+        "certificates_applied": {
+          "8fc1e500-01ef-4b98-82e8-efd2958ed2aa-9da15ee5-c7e2-45da-8e6b-77a14bb44210-29634de5-d8e4-46e8-9d72-8a91985b6ae8": {
+            "tech": 1.5
+          },
+          "31b93488-f6ca-4754-b6aa-103b30d46da7-2bdce7ee-d5a5-46ad-a011-3e2b3ad12253-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1": {
+            "tech": 4
+          },
+          "145d67d6-16e4-43b4-8b7e-5189927ef8c2-41fa4b48-9639-4e9e-8709-7e5cbf311175-29634de5-d8e4-46e8-9d72-8a91985b6ae8-4": {
+            "tech": 3
+          },
+          "9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc": {
+            "tech": 13,
+            "nontech": 3
+          },
+          "4dbc7d8b-6f2d-4568-8af9-d02edd92a089-f4234cda-b6bb-45f7-9bf4-c89d88cafe1e-29634de5-d8e4-46e8-9d72-8a91985b6ae8": {
+            "nontech": 2
+          },
+          "dcd259f2-578b-4ae0-8c82-5e2576eaeb6c": {
+            "tech": 2
+          },
+          "2173771a-2c78-4e4d-be8e-32782414f833": {
+            "nontech": 4
+          },
+          "e2d0d8b4-b5dd-46f6-adb5-e260651279a1": {
+            "tech": 3
+          },
+          "c50ca826-81d7-44e7-ab74-8cc407d60c38": {
+            "tech": 2
+          },
+          "9f4f4ed1-360c-4f69-86ca-a6132ad27164-4dea0a6e-e498-4b10-9344-770736244b51-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1": {
+            "tech": 1.5
+          },
+          "ff093c3d-7a82-428a-a8f0-25c0c37c715d": {
+            "nontech": 1
+          },
+          "0ae12647-424d-477d-bd8e-da5a4f7ef12f": {
+            "tech": 1
+          },
+          "8fc1e500-01ef-4b98-82e8-efd2958ed2aa-a503fae5-b4a8-4fe0-a7ec-5a40deff0380-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1": {
+            "tech": 2
+          },
+          "d131244e-188a-47a5-9828-5c93231dba88": {
+            "tech": 3
+          }
+        },
+        "completed": 46,
+        "min": 20
+      }
+    },
+    "hour_categories": {
+      "tech": {
+        "name": "tech",
+        "cycle": {
+          "actual": 36,
+          "limits": 36,
+          "completed": 36,
+          "cert_ids": [
+            "9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc",
+            "9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc",
+            "e2d0d8b4-b5dd-46f6-adb5-e260651279a1",
+            "8fc1e500-01ef-4b98-82e8-efd2958ed2aa-a503fae5-b4a8-4fe0-a7ec-5a40deff0380-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+            "8fc1e500-01ef-4b98-82e8-efd2958ed2aa-9da15ee5-c7e2-45da-8e6b-77a14bb44210-29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+            "0ae12647-424d-477d-bd8e-da5a4f7ef12f",
+            "31b93488-f6ca-4754-b6aa-103b30d46da7-2bdce7ee-d5a5-46ad-a011-3e2b3ad12253-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+            "31b93488-f6ca-4754-b6aa-103b30d46da7-2bdce7ee-d5a5-46ad-a011-3e2b3ad12253-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+            "c50ca826-81d7-44e7-ab74-8cc407d60c38",
+            "d131244e-188a-47a5-9828-5c93231dba88",
+            "145d67d6-16e4-43b4-8b7e-5189927ef8c2-41fa4b48-9639-4e9e-8709-7e5cbf311175-29634de5-d8e4-46e8-9d72-8a91985b6ae8-4",
+            "9f4f4ed1-360c-4f69-86ca-a6132ad27164-4dea0a6e-e498-4b10-9344-770736244b51-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+            "dcd259f2-578b-4ae0-8c82-5e2576eaeb6c",
+            "dcd259f2-578b-4ae0-8c82-5e2576eaeb6c"
+          ],
+          "min": 36
+        }
+      },
+      "nontech": {
+        "name": "nontech",
+        "cycle": {
+          "actual": 10,
+          "limits": 10,
+          "completed": 10,
+          "cert_ids": [
+            "2173771a-2c78-4e4d-be8e-32782414f833",
+            "9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc",
+            "4dbc7d8b-6f2d-4568-8af9-d02edd92a089-f4234cda-b6bb-45f7-9bf4-c89d88cafe1e-29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+            "4dbc7d8b-6f2d-4568-8af9-d02edd92a089-f4234cda-b6bb-45f7-9bf4-c89d88cafe1e-29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+            "ff093c3d-7a82-428a-a8f0-25c0c37c715d"
+          ],
+          "max": 40
+        }
+      },
+      "ethics_general": {
+        "name": "ethics_general",
+        "cycle": {
+          "actual": 0,
+          "limits": 0,
+          "completed": 0,
+          "cert_ids": [],
+          "min": 4
+        }
+      },
+      "regulatoryReview": {
+        "name": "regulatoryReview",
+        "cycle": {
+          "actual": 0,
+          "limits": 0,
+          "completed": 0,
+          "cert_ids": []
+        }
+      }
+    },
+    "span": {
+      "regulatoryReview": {
+        "name": "regulatoryReview",
+        "cycle": {
+          "actual": 2,
+          "limits": 2,
+          "completed": 2,
+          "years": [
+            {
+              "date": "2017-11-01T08:00:00.000Z",
+              "hours": 0,
+              "cyc_yr": "ca_cpa_2017",
+              "cert_ids": []
+            },
+            {
+              "date": "2015-11-01T08:00:00.000Z",
+              "hours": 2,
+              "cyc_yr": "ca_cpa_2015",
+              "cert_ids": ["f44ff873-02ab-4406-97bd-56ff9f32d560"]
+            }
+          ],
+          "cert_ids": ["f44ff873-02ab-4406-97bd-56ff9f32d560"],
+          "cycle": 6,
+          "min": 2
+        }
+      }
+    }
+  },
+  {
+    "name": "California CPA",
+    "date": "2015-11-01T08:00:00.000Z",
+    "license_number": "123456f",
+    "reg_id": "ca_cpa",
+    "cycleYears": 2,
+    "cycleHours": {
+      "actual": 2,
+      "applied": 2,
+      "limits": 2,
+      "totalHours": 80,
+      "completed": 2
+    },
+    "years": {
+      "2014": {
+        "year": "2014",
+        "lic_yr": "ca_cpa_2014",
+        "cert_ids": ["f44ff873-02ab-4406-97bd-56ff9f32d560"],
+        "certificates_applied": {
+          "f44ff873-02ab-4406-97bd-56ff9f32d560": {
+            "regulatoryReview": 2
+          }
+        },
+        "completed": 2,
+        "min": 20
+      }
+    },
+    "hour_categories": {
+      "tech": {
+        "name": "tech",
+        "cycle": {
+          "actual": 0,
+          "limits": 0,
+          "completed": 0,
+          "cert_ids": [],
+          "min": 36
+        }
+      },
+      "nontech": {
+        "name": "nontech",
+        "cycle": {
+          "actual": 0,
+          "limits": 0,
+          "completed": 0,
+          "cert_ids": [],
+          "max": 40
+        }
+      },
+      "ethics_general": {
+        "name": "ethics_general",
+        "cycle": {
+          "actual": 0,
+          "limits": 0,
+          "completed": 0,
+          "cert_ids": [],
+          "min": 4
+        }
+      },
+      "regulatoryReview": {
+        "name": "regulatoryReview",
+        "cycle": {
+          "actual": 2,
+          "limits": 2,
+          "completed": 2,
+          "cert_ids": ["f44ff873-02ab-4406-97bd-56ff9f32d560"]
+        }
+      }
+    },
+    "span": {
+      "regulatoryReview": {
+        "name": "regulatoryReview",
+        "cycle": {
+          "actual": 2,
+          "limits": 2,
+          "completed": 2,
+          "years": [
+            {
+              "date": "2015-11-01T08:00:00.000Z",
+              "hours": 2,
+              "cyc_yr": "ca_cpa_2015",
+              "cert_ids": ["f44ff873-02ab-4406-97bd-56ff9f32d560"]
+            }
+          ],
+          "cert_ids": ["f44ff873-02ab-4406-97bd-56ff9f32d560"],
+          "cycle": 6,
+          "min": 2
+        }
+      }
+    }
+  },
+  {
+    "name": "Yellowbook 80-hour",
+    "date": "2018-12-31T08:00:00.000Z",
+    "reg_id": "yellowbook_80",
+    "cycleYears": 2,
+    "cycleHours": {
+      "actual": 19,
+      "applied": 19,
+      "limits": 19,
+      "totalHours": 80,
+      "completed": 19
+    },
+    "years": {
+      "2017": {
+        "year": "2017",
+        "lic_yr": "yellowbook_80_2017",
+        "cert_ids": [
+          "e2d0d8b4-b5dd-46f6-adb5-e260651279a1",
+          "dcd259f2-578b-4ae0-8c82-5e2576eaeb6c",
+          "9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc",
+          "d131244e-188a-47a5-9828-5c93231dba88",
+          "dcd259f2-578b-4ae0-8c82-5e2576eaeb6c"
+        ],
+        "certificates_applied": {
+          "9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc": {
+            "proficiency": 3
+          },
+          "d131244e-188a-47a5-9828-5c93231dba88": {
+            "proficiency": 3
+          },
+          "dcd259f2-578b-4ae0-8c82-5e2576eaeb6c": {
+            "proficiency": 1,
+            "yellowbook": 1
+          },
+          "e2d0d8b4-b5dd-46f6-adb5-e260651279a1": {
+            "yellowbook": 3
+          }
+        },
+        "completed": 11,
+        "min": 20
+      },
+      "2018": {
+        "year": "2018",
+        "lic_yr": "yellowbook_80_2018",
+        "cert_ids": [
+          "36c49df8-bb13-48df-ac57-327b35a568fd",
+          "72be8671-7279-4c94-9b39-f3cf6b50ab71",
+          "77b807e7-806a-49b7-9263-cdd3930990ae"
+        ],
+        "certificates_applied": {
+          "72be8671-7279-4c94-9b39-f3cf6b50ab71": {
+            "proficiency": 2
+          },
+          "77b807e7-806a-49b7-9263-cdd3930990ae": {
+            "proficiency": 4
+          },
+          "36c49df8-bb13-48df-ac57-327b35a568fd": {
+            "yellowbook": 2
+          }
+        },
+        "completed": 8,
+        "min": 20
+      }
+    },
+    "hour_categories": {
+      "yellowbook": {
+        "name": "yellowbook",
+        "cycle": {
+          "actual": 6,
+          "limits": 6,
+          "completed": 6,
+          "cert_ids": [
+            "36c49df8-bb13-48df-ac57-327b35a568fd",
+            "e2d0d8b4-b5dd-46f6-adb5-e260651279a1",
+            "dcd259f2-578b-4ae0-8c82-5e2576eaeb6c"
+          ],
+          "min": 24
+        }
+      },
+      "proficiency": {
+        "name": "proficiency",
+        "cycle": {
+          "actual": 13,
+          "limits": 13,
+          "completed": 13,
+          "cert_ids": [
+            "72be8671-7279-4c94-9b39-f3cf6b50ab71",
+            "77b807e7-806a-49b7-9263-cdd3930990ae",
+            "9da1ef2f-8ebe-4579-8dbc-af7aef55c4bc",
+            "d131244e-188a-47a5-9828-5c93231dba88",
+            "dcd259f2-578b-4ae0-8c82-5e2576eaeb6c"
+          ],
+          "min": 56
+        }
+      }
+    }
+  },
+  {
+    "name": "California CPA",
+    "date": "2019-11-01T08:00:00.000Z",
+    "license_number": "123456f",
+    "reg_id": "ca_cpa",
+    "cycleYears": 2,
+    "cycleHours": {
+      "actual": 61.5,
+      "applied": 61.5,
+      "limits": 61.5,
+      "totalHours": 80,
+      "completed": 61.5
+    },
+    "years": {
+      "2018": {
+        "year": "2018",
+        "lic_yr": "ca_cpa_2018",
+        "cert_ids": [
+          "866544a8-f63f-4b68-8a4f-d61b7412e28f",
+          "bb56f504-7dea-40cf-903d-006f65ddb5e0-9fade983-ff85-44a7-8113-bb48384953cc-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+          "400b2e80-7d76-429c-b378-12755c157c2a-3540671e-8166-45de-b31a-20286a9bf264-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+          "0b5cf582-0198-4964-8dc2-d59107edd146",
+          "79a925d6-1819-45e2-a6f2-ad1a7787f4f9-0cf43aae-6554-4079-a658-bf9aebb23415-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+          "402655fd-0305-4197-a895-8fbf1db7314e",
+          "3e82ea4a-dc2a-4078-bdfc-f3de31f3d9c9",
+          "9e974150-e9e8-4945-9f34-3f251babed03",
+          "400b2e80-7d76-429c-b378-12755c157c2a_a7e6bcdd-a0cf-4eb4-9b44-65f06c5d1a7b_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1",
+          "653bdfba-5edb-41b5-983e-ec4dcfd28190",
+          "bb56f504-7dea-40cf-903d-006f65ddb5e0_737561d5-4368-40d7-9375-21b63d78160c_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1",
+          "72be8671-7279-4c94-9b39-f3cf6b50ab71",
+          "72be8671-7279-4c94-9b39-f3cf6b50ab71",
+          "07e4632d-9215-4c2c-a52a-797035907b3d",
+          "0b5cf582-0198-4964-8dc2-d59107edd146_29634de5-d8e4-46e8-9d72-8a91985b6ae8_0",
+          "400b2e80-7d76-429c-b378-12755c157c2a_ebd0ee65-4e6f-40b4-9d2c-635fab25646c_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1",
+          "77b807e7-806a-49b7-9263-cdd3930990ae",
+          "e092e520-f490-4e4e-a3ee-6d7b15f28ca5",
+          "a9931aa9-0d3b-4ad0-969a-604d885e2da4",
+          "e317d82a-b553-4331-b747-927f7e08e215",
+          "35ce1892-476a-4b75-b2ab-8415ede4017a",
+          "36c49df8-bb13-48df-ac57-327b35a568fd",
+          "6f770182-3187-4966-9e3e-d603b038960f"
+        ],
+        "certificates_applied": {
+          "07e4632d-9215-4c2c-a52a-797035907b3d": {
+            "tech": 1
+          },
+          "402655fd-0305-4197-a895-8fbf1db7314e": {
+            "tech": 1
+          },
+          "36c49df8-bb13-48df-ac57-327b35a568fd": {
+            "tech": 2
+          },
+          "400b2e80-7d76-429c-b378-12755c157c2a-3540671e-8166-45de-b31a-20286a9bf264-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1": {
+            "tech": 2.5
+          },
+          "400b2e80-7d76-429c-b378-12755c157c2a_ebd0ee65-4e6f-40b4-9d2c-635fab25646c_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1": {
+            "tech": 2
+          },
+          "e092e520-f490-4e4e-a3ee-6d7b15f28ca5": {
+            "tech": 3
+          },
+          "9e974150-e9e8-4945-9f34-3f251babed03": {
+            "tech": 2
+          },
+          "77b807e7-806a-49b7-9263-cdd3930990ae": {
+            "tech": 4
+          },
+          "400b2e80-7d76-429c-b378-12755c157c2a_a7e6bcdd-a0cf-4eb4-9b44-65f06c5d1a7b_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1": {
+            "tech": 3
+          },
+          "0b5cf582-0198-4964-8dc2-d59107edd146_29634de5-d8e4-46e8-9d72-8a91985b6ae8_0": {
+            "tech": 2
+          },
+          "a9931aa9-0d3b-4ad0-969a-604d885e2da4": {
+            "tech": 1
+          },
+          "3e82ea4a-dc2a-4078-bdfc-f3de31f3d9c9": {
+            "tech": 2
+          },
+          "72be8671-7279-4c94-9b39-f3cf6b50ab71": {
+            "tech": 2
+          },
+          "79a925d6-1819-45e2-a6f2-ad1a7787f4f9-0cf43aae-6554-4079-a658-bf9aebb23415-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1": {
+            "tech": 2
+          },
+          "6f770182-3187-4966-9e3e-d603b038960f": {
+            "nontech": 4
+          },
+          "bb56f504-7dea-40cf-903d-006f65ddb5e0-9fade983-ff85-44a7-8113-bb48384953cc-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1": {
+            "tech": 2
+          },
+          "0b5cf582-0198-4964-8dc2-d59107edd146": {
+            "tech": 2
+          },
+          "bb56f504-7dea-40cf-903d-006f65ddb5e0_737561d5-4368-40d7-9375-21b63d78160c_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1": {
+            "tech": 2
+          },
+          "e317d82a-b553-4331-b747-927f7e08e215": {
+            "tech": 2
+          },
+          "866544a8-f63f-4b68-8a4f-d61b7412e28f": {
+            "tech": 16
+          },
+          "653bdfba-5edb-41b5-983e-ec4dcfd28190": {
+            "tech": 1
+          },
+          "35ce1892-476a-4b75-b2ab-8415ede4017a": {
+            "tech": 3
+          }
+        },
+        "completed": 61.5,
+        "min": 20
+      },
+      "2019": {
+        "year": "2019",
+        "lic_yr": "ca_cpa_2019",
+        "cert_ids": [],
+        "certificates_applied": {},
+        "completed": 0,
+        "min": 20
+      }
+    },
+    "hour_categories": {
+      "tech": {
+        "name": "tech",
+        "cycle": {
+          "actual": 57.5,
+          "limits": 57.5,
+          "completed": 57.5,
+          "cert_ids": [
+            "866544a8-f63f-4b68-8a4f-d61b7412e28f",
+            "bb56f504-7dea-40cf-903d-006f65ddb5e0-9fade983-ff85-44a7-8113-bb48384953cc-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+            "400b2e80-7d76-429c-b378-12755c157c2a-3540671e-8166-45de-b31a-20286a9bf264-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+            "0b5cf582-0198-4964-8dc2-d59107edd146",
+            "79a925d6-1819-45e2-a6f2-ad1a7787f4f9-0cf43aae-6554-4079-a658-bf9aebb23415-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1",
+            "402655fd-0305-4197-a895-8fbf1db7314e",
+            "3e82ea4a-dc2a-4078-bdfc-f3de31f3d9c9",
+            "9e974150-e9e8-4945-9f34-3f251babed03",
+            "400b2e80-7d76-429c-b378-12755c157c2a_a7e6bcdd-a0cf-4eb4-9b44-65f06c5d1a7b_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1",
+            "653bdfba-5edb-41b5-983e-ec4dcfd28190",
+            "bb56f504-7dea-40cf-903d-006f65ddb5e0_737561d5-4368-40d7-9375-21b63d78160c_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1",
+            "72be8671-7279-4c94-9b39-f3cf6b50ab71",
+            "72be8671-7279-4c94-9b39-f3cf6b50ab71",
+            "07e4632d-9215-4c2c-a52a-797035907b3d",
+            "0b5cf582-0198-4964-8dc2-d59107edd146_29634de5-d8e4-46e8-9d72-8a91985b6ae8_0",
+            "400b2e80-7d76-429c-b378-12755c157c2a_ebd0ee65-4e6f-40b4-9d2c-635fab25646c_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1",
+            "77b807e7-806a-49b7-9263-cdd3930990ae",
+            "e092e520-f490-4e4e-a3ee-6d7b15f28ca5",
+            "a9931aa9-0d3b-4ad0-969a-604d885e2da4",
+            "e317d82a-b553-4331-b747-927f7e08e215",
+            "35ce1892-476a-4b75-b2ab-8415ede4017a",
+            "36c49df8-bb13-48df-ac57-327b35a568fd"
+          ],
+          "min": 36
+        }
+      },
+      "nontech": {
+        "name": "nontech",
+        "cycle": {
+          "actual": 4,
+          "limits": 4,
+          "completed": 4,
+          "cert_ids": ["6f770182-3187-4966-9e3e-d603b038960f"],
+          "max": 40
+        }
+      },
+      "ethics_general": {
+        "name": "ethics_general",
+        "cycle": {
+          "actual": 0,
+          "limits": 0,
+          "completed": 0,
+          "cert_ids": [],
+          "min": 4
+        }
+      },
+      "regulatoryReview": {
+        "name": "regulatoryReview",
+        "cycle": {
+          "actual": 0,
+          "limits": 0,
+          "completed": 0,
+          "cert_ids": []
+        }
+      }
+    },
+    "span": {
+      "regulatoryReview": {
+        "name": "regulatoryReview",
+        "cycle": {
+          "actual": 2,
+          "limits": 2,
+          "completed": 2,
+          "years": [
+            {
+              "date": "2019-11-01T08:00:00.000Z",
+              "hours": 0,
+              "cyc_yr": "ca_cpa_2019",
+              "cert_ids": []
+            },
+            {
+              "date": "2017-11-01T08:00:00.000Z",
+              "hours": 0,
+              "cyc_yr": "ca_cpa_2017",
+              "cert_ids": []
+            },
+            {
+              "date": "2015-11-01T08:00:00.000Z",
+              "hours": 2,
+              "cyc_yr": "ca_cpa_2015",
+              "cert_ids": ["f44ff873-02ab-4406-97bd-56ff9f32d560"]
+            }
+          ],
+          "cert_ids": ["f44ff873-02ab-4406-97bd-56ff9f32d560"],
+          "cycle": 6,
+          "min": 2
+        }
+      }
+    }
+  }
+]

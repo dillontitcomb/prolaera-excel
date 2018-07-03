@@ -1,0 +1,219 @@
+{
+  "company_id": 222222,
+  "firm": "Prolaera",
+  "updates": [
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1527586434351
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1527586480103
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1527586589767
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1527586591888
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1527586593325
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1527586613108
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1527586643834
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1527586686353
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1527586702520
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1527586781630
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1527586802106
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1527587142802
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1527587263197
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1527587288009
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1527587430786
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1527587444645
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1527760020838
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1527760070279
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1527760088127
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1527760100806
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1528933389700
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1528933451248
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1528933492075
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1529096107722
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1529355364755
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1530120809471
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1530120811997
+    },
+    {
+      "stage": "dev",
+      "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+      "time": 1530123228227
+    }
+  ],
+  "zip": "98104",
+  "hire_date": "2017-06-23T03:06:36.658Z",
+  "certifications": [
+    {
+      "number": "23456",
+      "exp_date": "2018-05-29T09:50:23.853Z",
+      "id": "ace_cert",
+      "issue_date": "2018-05-29T09:50:23.853Z"
+    }
+  ],
+  "email": "evan+demo@prolaera.com",
+  "first": "Evan",
+  "state": "WA",
+  "city": "Seattle",
+  "locations": ["c2874828-c99f-452d-9365-ec7fe49d6b2a"],
+  "teams": ["c5593947-6de0-4548-9a55-4711dc044eec"],
+  "admin": true,
+  "last": "Hiner",
+  "profile_uid": "29634de5-d8e4-46e8-9d72-8a91985b6ae8",
+  "team_leader": true,
+  "firstLogin": false,
+  "phone": "5555555555",
+  "author": true,
+  "misc_urls": {
+    "licenses": {
+      "ca_cpa": [
+        {
+          "name": "exampleProlaeraLogo.png",
+          "date": "2018-03-09T02:06:58.454Z",
+          "url":
+            "https://files.prolaera.com/companies/222222/users/29634de5-d8e4-46e8-9d72-8a91985b6ae8/licenses/ca_cpa/96e523c9-871c-429a-b73d-00bc529266bd.png"
+        },
+        {
+          "name": "Screen Shot 2018-02-06 at 1.40.49 PM.png",
+          "date": "2018-03-09T02:14:15.082Z",
+          "url":
+            "https://files.prolaera.com/companies/222222/users/29634de5-d8e4-46e8-9d72-8a91985b6ae8/licenses/ca_cpa/99165d9a-9e8d-47cc-b915-7de3aeec4b58.png"
+        },
+        {
+          "name": "Fairview_Personal_License.pdf",
+          "date": "2018-06-27T18:13:48.078Z",
+          "url":
+            "https://files.prolaera.com/222222/users/29634de5-d8e4-46e8-9d72-8a91985b6ae8/licenses/ca_cpa/8eb09eae_Fairview_Personal_License.pdf"
+        }
+      ],
+      "ca_cpa_at": [
+        {
+          "name": "cpe.png",
+          "date": "2018-03-14T17:28:41.102Z",
+          "url":
+            "https://files.prolaera.com/companies/222222/users/29634de5-d8e4-46e8-9d72-8a91985b6ae8/licenses/ca_cpa_at/1e0319de-840a-4a95-b922-f4c58536e0e8.png"
+        }
+      ]
+    }
+  },
+  "department": [
+    "36194953-a2ef-4f2e-a990-27973541720f",
+    "1f2ffcb0-d8a1-4883-8c07-440800390fff",
+    "43182f47-9b52-4346-afc8-d0c346a705ce",
+    "62efab51-2bf5-4401-8277-37dbece4b9db",
+    "40ca520a-6fe0-4144-aaf0-7909af19888d"
+  ],
+  "hireDate": "2017-06-23T03:06:36.658Z",
+  "ptin": "123456789",
+  "address": "111 South Jackson St",
+  "gogo": 6,
+  "gettingStarted": false,
+  "level": "76a00b45-59c7-4e31-85c2-37bb5b49ca77",
+  "practices": [
+    "4e8b66ef-cdb4-47db-82f0-bf0314f82869",
+    "7fdcc621-c84e-4de4-8366-c78d0f2922dd",
+    "b6250d10-d7ac-43d3-bc45-7229779aa59f"
+  ]
+}

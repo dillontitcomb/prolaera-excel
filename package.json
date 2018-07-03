@@ -1,0 +1,22 @@
+{
+  "name": "prolaera-excel",
+  "version": "1.0.0",
+  "description": "Export report as formatted excel file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dillontitcomb/prolaera-excel.git"
+  },
+  "author": "Dillon Titcomb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dillontitcomb/prolaera-excel/issues"
+  },
+  "homepage": "https://github.com/dillontitcomb/prolaera-excel#readme",
+  "dependencies": {
+    "exceljs": "^1.5.1"
+  }
+}
