@@ -28,20 +28,27 @@ const cycleStart = `${twoYearsPrior.getMonth() +
 const reportingPeriod = `${cycleStart} - ${cycleEnd}`;
 const cycleTotal = reportingPeriod;
 
-//Table Body
-const cols = ['DATE', 'TITLE', 'SPONSOR', 'DELIVERY METHOD'];
+//Table Body Headers
+const cols = [new Array(10), new Array(10)];
+cols[0][0] = 'DATE';
+cols[0][1] = 'TITLE';
+cols[0][3] = 'SPONSOR';
+cols[0][4] = 'DELIVERY METHOD';
 
 const dynamicColumns = [];
 const keys = Object.keys(regulators[0].hour_categories);
 keys.forEach(key => {
-  dynamicColumns.push(key.replace('_', ' ').toUpperCase());
+  dynamicColumns.push(key);
 });
 
-//Summary
+dynamicColsLength = dynamicColumns.length;
 
-const totalCreditsEarned = [];
-const totalCreditsApplied = [];
-const totalCPEReq = [];
+for (let i = 9; dynamicColsLength > 0; i--) {
+  cols[0][i] = dynamicColumns[dynamicColsLength - 1]
+    .replace('_', ' ')
+    .toUpperCase();
+  dynamicColsLength--;
+}
 
 //Create Excel Data
 
@@ -72,16 +79,6 @@ headerRows[2][0] = name;
 //create subheader rows
 const subHeaderRows = [new Array(10), new Array(10)];
 
-//create table body rows
-const tableHeaderRow = [new Array(10), new Array(10)];
-for (let i = 0; i < cols.length; i++) {
-  tableHeaderRow[0][i] = cols[i];
-}
-for (let i = 0; i < dynamicColumns.length; i++) {
-  let start = 10 - dynamicColumns.length;
-  tableHeaderRow[0][start + i] = dynamicColumns[i];
-}
-
 //get total number of certs
 const yearKeys = Object.keys(regulators[0].years);
 
@@ -107,28 +104,28 @@ yearKeys.forEach(key => {
   });
 });
 
-console.log(allCerts);
 const tableBodyRows = [];
+
+console.log(dynamicColumns);
 
 allCerts.forEach(cert => {
   let tempRow = [new Array(10)];
   tempRow[0] = cert.date;
   tempRow[1] = cert.cert;
-  tempRow[2] = cert.sponsor || cert.sponsors.name;
-  tempRow[3] = cert.delivery;
-  tempRow[11 - dynamicColumns.length] = cert.hours.hours || 0;
-  tempRow[11 - dynamicColumns.length - 1] = cert.hours[dynamicColumns[0]] || 0;
-  tempRow[11 - dynamicColumns.length - 2] = cert.hours[dynamicColumns[1]] || 0;
-  tempRow[11 - dynamicColumns.length - 3] = cert.hours[dynamicColumns[2]] || 0;
+  tempRow[3] = cert.sponsor || cert.sponsors.name;
+  tempRow[4] = cert.delivery;
+  let dynColsLen = dynamicColumns.length;
+  for (let i = 9; dynColsLen > 0; i--) {
+    tempRow[i] = cert.hours[dynamicColumns[dynColsLen - 1]];
+    dynColsLen--;
+  }
   tableBodyRows.push(tempRow);
 });
-
-console.log(tableBodyRows);
 
 //add all rows
 const allRows = headerRows
   .concat(subHeaderRows)
-  .concat(tableHeaderRow)
+  .concat(cols)
   .concat(tableBodyRows);
 worksheet.addRows(allRows);
 

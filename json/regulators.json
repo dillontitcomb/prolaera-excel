@@ -37,7 +37,8 @@
         ],
         "certificates_applied": {
           "400b2e80-7d76-429c-b378-12755c157c2a_a7e6bcdd-a0cf-4eb4-9b44-65f06c5d1a7b_29634de5-d8e4-46e8-9d72-8a91985b6ae8_1": {
-            "hours": 3
+            "hours": 3,
+            "ethics_state": 2
           },
           "9f4f4ed1-360c-4f69-86ca-a6132ad27164-4dea0a6e-e498-4b10-9344-770736244b51-29634de5-d8e4-46e8-9d72-8a91985b6ae8-1": {
             "hours": 1.5
