@@ -29,14 +29,12 @@ const reportingPeriod = `${cycleStart} - ${cycleEnd}`;
 const cycleTotal = reportingPeriod;
 
 //Table Body
-const cols = ['DATE', 'TITLE', 'SPONSOR', 'DELIVERY METHOD', 'GENERAL'];
+const cols = ['DATE', 'TITLE', 'SPONSOR', 'DELIVERY METHOD'];
 
-const dynamicColumns = ['HOURS'];
+const dynamicColumns = [];
 const keys = Object.keys(regulators[0].hour_categories);
 keys.forEach(key => {
-  if (key !== 'hours') {
-    dynamicColumns.push(key.replace('_', ' ').toUpperCase());
-  }
+  dynamicColumns.push(key.replace('_', ' ').toUpperCase());
 });
 
 //Summary
@@ -75,7 +73,14 @@ headerRows[2][0] = name;
 const subHeaderRows = [new Array(10), new Array(10)];
 
 //create table body rows
-const tableHeaderRow = [cols];
+const tableHeaderRow = [new Array(10), new Array(10)];
+for (let i = 0; i < cols.length; i++) {
+  tableHeaderRow[0][i] = cols[i];
+}
+for (let i = 0; i < dynamicColumns.length; i++) {
+  let start = 10 - dynamicColumns.length;
+  tableHeaderRow[0][start + i] = dynamicColumns[i];
+}
 
 //get total number of certs
 const yearKeys = Object.keys(regulators[0].years);
@@ -107,11 +112,24 @@ const tableBodyRows = [];
 
 allCerts.forEach(cert => {
   let tempRow = [new Array(10)];
-  
+  tempRow[0] = cert.date;
+  tempRow[1] = cert.cert;
+  tempRow[2] = cert.sponsor || cert.sponsors.name;
+  tempRow[3] = cert.delivery;
+  tempRow[11 - dynamicColumns.length] = cert.hours.hours || 0;
+  tempRow[11 - dynamicColumns.length - 1] = cert.hours[dynamicColumns[0]] || 0;
+  tempRow[11 - dynamicColumns.length - 2] = cert.hours[dynamicColumns[1]] || 0;
+  tempRow[11 - dynamicColumns.length - 3] = cert.hours[dynamicColumns[2]] || 0;
+  tableBodyRows.push(tempRow);
 });
 
+console.log(tableBodyRows);
+
 //add all rows
-const allRows = headerRows.concat(subHeaderRows).concat(tableHeaderRow);
+const allRows = headerRows
+  .concat(subHeaderRows)
+  .concat(tableHeaderRow)
+  .concat(tableBodyRows);
 worksheet.addRows(allRows);
 
 //header styles
@@ -167,6 +185,18 @@ worksheet.getCell('A6').value = {
   ]
 };
 worksheet.getCell('A6').alignment = { vertical: 'middle', horizontal: 'left' };
+
+//body styles
+worksheet.mergeCells('A8:A9');
+worksheet.mergeCells('B8:B9');
+worksheet.mergeCells('C8:C9');
+worksheet.mergeCells('D8:D9');
+worksheet.mergeCells('E8:E9');
+worksheet.mergeCells('F8:F9');
+worksheet.mergeCells('G8:G9');
+worksheet.mergeCells('H8:H9');
+worksheet.mergeCells('I8:I9');
+worksheet.mergeCells('J8:J9');
 
 workbook.xlsx.writeFile('complianceReport.xlsx').then(function() {
   console.log('File Written');
