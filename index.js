@@ -2,6 +2,8 @@ const Excel = require('exceljs');
 const certificates = require('./json/certificates.json');
 const regulators = require('./json/regulators.json');
 const profile = require('./json/profile.json');
+const buildReportData = require('./reportDataBuilder');
+console.log(buildReportData('a', 'b', 'g'));
 
 const certificatesDict = certificates.reduce((obj, cert) => {
   obj[cert.cert_id] = cert;
@@ -38,10 +40,10 @@ cols[0][4] = 'DELIVERY METHOD';
 const dynamicColumns = [];
 const keys = Object.keys(regulators[0].hour_categories);
 keys.forEach(key => {
-  dynamicColumns.push(key);
+  dynamicColumns.unshift(key);
 });
 
-dynamicColsLength = dynamicColumns.length;
+let dynamicColsLength = dynamicColumns.length;
 
 for (let i = 9; dynamicColsLength > 0; i--) {
   cols[0][i] = dynamicColumns[dynamicColsLength - 1]
@@ -49,8 +51,6 @@ for (let i = 9; dynamicColsLength > 0; i--) {
     .toUpperCase();
   dynamicColsLength--;
 }
-
-//Create Excel Data
 
 // create workbook & add worksheet
 
@@ -90,10 +90,13 @@ yearKeys.forEach(key => {
     const { cert, date, sponsor, sponsors, delivery } = certificatesDict[
       cert_id
     ];
+    let newDateObj = new Date(date);
+    let formattedDate = `${newDateObj.getMonth() +
+      1}/${newDateObj.getDate()}/${newDateObj.getFullYear()}`;
     const tempCert = {
       cert,
       cert_id,
-      date,
+      formattedDate,
       sponsor,
       sponsors,
       delivery,
@@ -104,29 +107,77 @@ yearKeys.forEach(key => {
   });
 });
 
+//get table body length
+
+const tableBodyLength = allCerts.length;
+
+//fill in table rows and store hour totals
 const tableBodyRows = [];
 
-console.log(dynamicColumns);
+const hourTotals = {};
+dynamicColumns.forEach(col => {
+  hourTotals[col] = 0;
+});
 
 allCerts.forEach(cert => {
   let tempRow = [new Array(10)];
-  tempRow[0] = cert.date;
+  tempRow[0] = cert.formattedDate;
   tempRow[1] = cert.cert;
   tempRow[3] = cert.sponsor || cert.sponsors.name;
   tempRow[4] = cert.delivery;
   let dynColsLen = dynamicColumns.length;
   for (let i = 9; dynColsLen > 0; i--) {
     tempRow[i] = cert.hours[dynamicColumns[dynColsLen - 1]];
+    let tempCategory = [dynamicColumns[dynColsLen - 1]];
+    if (typeof cert.hours[dynamicColumns[dynColsLen - 1]] === 'number')
+      hourTotals[tempCategory] += cert.hours[dynamicColumns[dynColsLen - 1]];
     dynColsLen--;
   }
   tableBodyRows.push(tempRow);
 });
 
+//build table summary
+const tableSummaryRows = [
+  new Array(10),
+  new Array(10),
+  new Array(10),
+  new Array(10),
+  new Array(10),
+  new Array(10)
+];
+
+tableSummaryRows[2][0] = 'Total Credits Applied:';
+tableSummaryRows[3][0] = 'Total Credits Earned:';
+tableSummaryRows[4][0] = 'Continuing Education Requirement:';
+tableSummaryRows[5][0] = 'Credits Remaining:';
+
+let length = dynamicColumns.length;
+for (let i = 9; length > 0; i--) {
+  let tempCategoryName = [dynamicColumns[length - 1]];
+  tableSummaryRows[0][i + 1] = [dynamicColumns[length - 1]][0]
+    .replace('_', ' ')
+    .toUpperCase();
+  tableSummaryRows[2][i] = hourTotals[tempCategoryName];
+  tableSummaryRows[3][i] = hourTotals[tempCategoryName];
+  tableSummaryRows[4][i] =
+    regulators[0].hour_categories[tempCategoryName].cycle.min;
+
+  regulators[0].hour_categories[tempCategoryName].cycle.min -
+    hourTotals[tempCategoryName] >
+  0
+    ? (tableSummaryRows[5][i] =
+        regulators[0].hour_categories[tempCategoryName].cycle.min -
+        hourTotals[tempCategoryName])
+    : (tableSummaryRows[5][i] = 0);
+  length--;
+}
+
 //add all rows
 const allRows = headerRows
   .concat(subHeaderRows)
   .concat(cols)
-  .concat(tableBodyRows);
+  .concat(tableBodyRows)
+  .concat(tableSummaryRows);
 worksheet.addRows(allRows);
 
 //header styles
@@ -183,10 +234,9 @@ worksheet.getCell('A6').value = {
 };
 worksheet.getCell('A6').alignment = { vertical: 'middle', horizontal: 'left' };
 
-//body styles
+//table header styles
 worksheet.mergeCells('A8:A9');
-worksheet.mergeCells('B8:B9');
-worksheet.mergeCells('C8:C9');
+worksheet.mergeCells('B8:C9');
 worksheet.mergeCells('D8:D9');
 worksheet.mergeCells('E8:E9');
 worksheet.mergeCells('F8:F9');
@@ -194,6 +244,13 @@ worksheet.mergeCells('G8:G9');
 worksheet.mergeCells('H8:H9');
 worksheet.mergeCells('I8:I9');
 worksheet.mergeCells('J8:J9');
+
+//table styles B10, C10
+
+for (let i = 0; i < tableBodyLength - 1; i++) {
+  let rowNum = 10 + i;
+  worksheet.mergeCells(`B${rowNum}:C${rowNum}`);
+}
 
 workbook.xlsx.writeFile('complianceReport.xlsx').then(function() {
   console.log('File Written');
