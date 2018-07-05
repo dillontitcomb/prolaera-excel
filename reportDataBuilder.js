@@ -41,6 +41,26 @@ exports.buildReportData = function(profile, regulator, certificates) {
     });
   });
 
+  const licenseNum = regulator.license_number;
+  const cycleYears = regulator.cycleYears;
+  const date = new Date(regulator.date);
+  const twoYearsPrior = new Date(date.getTime() - 31556952000 * cycleYears);
+  const cycleEnd = `${date.getMonth() +
+    1}/${date.getDate()}/${date.getFullYear()}`;
+  const issueDate = cycleEnd;
+  const cycleStart = `${twoYearsPrior.getMonth() +
+    1}/${twoYearsPrior.getDate()}/${twoYearsPrior.getFullYear()}`;
+  const reportingPeriod = `${cycleStart} - ${cycleEnd}`;
+  const cycleTotal = reportingPeriod;
+  const annualTotal = reportingPeriod;
+  const richTextData = {
+    licenseNum,
+    issueDate,
+    reportingPeriod,
+    cycleTotal,
+    annualTotal
+  };
+
   function buildHeader() {
     const regulatorName = regulator.name;
     const pageNumber = 1;
@@ -146,7 +166,8 @@ exports.buildReportData = function(profile, regulator, certificates) {
     subHeader: subHeaderRows,
     tableHeader: tableHeaderRows,
     tableBody: tableBodyRows,
-    tableSummary: tableSummaryRows
+    tableSummary: tableSummaryRows,
+    richTextData: richTextData
   };
   return reportData;
 };
