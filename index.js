@@ -3,7 +3,8 @@ const certificates = require('./json/certificates.json');
 const regulators = require('./json/regulators.json');
 const profile = require('./json/profile.json');
 const buildReportData = require('./reportDataBuilder');
-console.log(buildReportData('a', 'b', 'g'));
+
+console.log(buildReportData);
 
 const certificatesDict = certificates.reduce((obj, cert) => {
   obj[cert.cert_id] = cert;
