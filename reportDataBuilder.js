@@ -11,10 +11,15 @@ exports.buildReportData = function(profile, regulator, certificates) {
     dynamicCategories.unshift(key);
   });
 
+  const hourTotals = {};
+  dynamicCategories.forEach(col => {
+    hourTotals[col] = 0;
+  });
+
   const allCerts = [];
-  const yearKeys = Object.keys(regulators[0].years);
+  const yearKeys = Object.keys(regulator.years);
   yearKeys.forEach(key => {
-    const tempAppliedCerts = regulators[0].years[key].certificates_applied;
+    const tempAppliedCerts = regulator.years[key].certificates_applied;
     Object.keys(tempAppliedCerts).forEach(cert_id => {
       const { cert, date, sponsor, sponsors, delivery } = certificatesDict[
         cert_id
@@ -45,7 +50,7 @@ exports.buildReportData = function(profile, regulator, certificates) {
       headerRows.push(new Array(10));
     }
 
-    headerRows[0][0] = regName;
+    headerRows[0][0] = regulatorName;
     headerRows[0][9] = 'Page ' + pageNumber;
     headerRows[2][0] = name;
     return headerRows;
@@ -117,13 +122,13 @@ exports.buildReportData = function(profile, regulator, certificates) {
       tableSummaryRows[2][i] = hourTotals[tempCategoryName];
       tableSummaryRows[3][i] = hourTotals[tempCategoryName];
       tableSummaryRows[4][i] =
-        regulators[0].hour_categories[tempCategoryName].cycle.min;
+        regulator.hour_categories[tempCategoryName].cycle.min;
 
-      regulators[0].hour_categories[tempCategoryName].cycle.min -
+      regulator.hour_categories[tempCategoryName].cycle.min -
         hourTotals[tempCategoryName] >
       0
         ? (tableSummaryRows[5][i] =
-            regulators[0].hour_categories[tempCategoryName].cycle.min -
+            regulator.hour_categories[tempCategoryName].cycle.min -
             hourTotals[tempCategoryName])
         : (tableSummaryRows[5][i] = 0);
       length--;

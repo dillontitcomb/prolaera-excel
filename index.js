@@ -2,9 +2,9 @@ const Excel = require('exceljs');
 const certificates = require('./json/certificates.json');
 const regulators = require('./json/regulators.json');
 const profile = require('./json/profile.json');
-const buildReportData = require('./reportDataBuilder');
+const data = require('./reportDataBuilder');
 
-console.log(buildReportData);
+console.log(data.buildReportData(profile, regulators[0], certificates));
 
 const certificatesDict = certificates.reduce((obj, cert) => {
   obj[cert.cert_id] = cert;
@@ -174,11 +174,18 @@ for (let i = 9; length > 0; i--) {
 }
 
 //add all rows
-const allRows = headerRows
-  .concat(subHeaderRows)
-  .concat(cols)
-  .concat(tableBodyRows)
-  .concat(tableSummaryRows);
+const {
+  header,
+  subHeader,
+  tableHeader,
+  tableBody,
+  tableSummary
+} = data.buildReportData(profile, regulators[0], certificates);
+const allRows = header
+  .concat(subHeader)
+  .concat(tableHeader)
+  .concat(tableBody)
+  .concat(tableSummary);
 worksheet.addRows(allRows);
 
 //header styles
