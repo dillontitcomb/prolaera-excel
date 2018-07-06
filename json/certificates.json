@@ -427,7 +427,7 @@
   {
     "company_id": 222222,
     "location": "111 South Jackson Street, Seattle, WA, United States",
-    "sponsors": {
+    "ss": {
       "name": "Bowman Knopp - External"
     },
     "delivery_uid": 1,

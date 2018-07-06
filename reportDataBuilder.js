@@ -61,6 +61,20 @@ exports.buildReportData = function(profile, regulator, certificates) {
     annualTotal
   };
 
+  // TODO: move to helpers
+  function getSponsor(cert) {
+    let sponsor;
+    if (cert.sponsor) {
+      sponsor = cert.sponsor;
+    } else if (cert.sponsors) {
+      sponsor = cert.sponsors.name || Object.values(cert.sponsors)[0];
+    } else {
+      sponsor = 'N/A';
+    }
+    return sponsor;
+  }
+
+  // TODO: Components
   function buildHeader() {
     const regulatorName = regulator.name;
     const pageNumber = 1;
@@ -71,14 +85,18 @@ exports.buildReportData = function(profile, regulator, certificates) {
     }
 
     headerRows[0][0] = regulatorName;
-    headerRows[0][9] = 'Page ' + pageNumber;
+    headerRows[0][6] = 'Page ' + pageNumber;
     headerRows[2][0] = name;
     return headerRows;
   }
+
+  // TODO: Componets
   function buildSubHeader() {
     const subHeaderRows = [new Array(10), new Array(10)];
     return subHeaderRows;
   }
+
+  // TODO: Componets
   function buildTableHeader() {
     const tableHeaderRows = [new Array(10), new Array(10)];
     tableHeaderRows[0][0] = 'DATE';
@@ -94,13 +112,15 @@ exports.buildReportData = function(profile, regulator, certificates) {
     }
     return tableHeaderRows;
   }
+
+  // TODO: Components
   function buildTableBody() {
     const tableBodyRows = [];
     allCerts.forEach(cert => {
       let tempRow = [new Array(10)];
       tempRow[0] = cert.formattedDate;
       tempRow[1] = cert.cert;
-      tempRow[3] = cert.sponsor || cert.sponsors.name;
+      tempRow[3] = getSponsor(cert);
       tempRow[4] = cert.delivery;
       let numberOfDynamicCategories = dynamicCategories.length;
       for (let i = 9; numberOfDynamicCategories > 0; i--) {
@@ -120,6 +140,8 @@ exports.buildReportData = function(profile, regulator, certificates) {
     });
     return tableBodyRows;
   }
+
+  // TODO: Components
   function buildTableSummary() {
     const tableSummaryRows = [
       new Array(10),
@@ -155,6 +177,9 @@ exports.buildReportData = function(profile, regulator, certificates) {
     }
     return tableSummaryRows;
   }
+
+  console.log(dynamicCategories);
+
   const headerRows = buildHeader();
   const subHeaderRows = buildSubHeader();
   const tableHeaderRows = buildTableHeader();

@@ -4,10 +4,13 @@ const regulators = require('./json/regulators.json');
 const profile = require('./json/profile.json');
 const data = require('./reportDataBuilder');
 
+const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
 // create workbook & add worksheet
 
 const workbook = new Excel.Workbook();
 const worksheet = workbook.addWorksheet('User Compliance Report');
+
 worksheet.pageSetup.margins = {
   left: 0.25,
   right: 0.25,
@@ -26,7 +29,7 @@ const {
   tableBody,
   tableSummary,
   richTextData
-} = data.buildReportData(profile, regulators[0], certificates);
+} = data.buildReportData(profile, regulators[3], certificates);
 
 //add all rows
 const allRows = header
@@ -37,13 +40,15 @@ const allRows = header
 worksheet.addRows(allRows);
 
 //header styles
+// function to merge cells from header componeent and it takese a worksheet.
 worksheet.mergeCells('A1:F2');
 worksheet.mergeCells('A3:F5');
+worksheet.mergeCells('G1:J2');
 worksheet.mergeCells('G3:J3');
 worksheet.mergeCells('G4:J4');
 worksheet.mergeCells('G5:J5');
 
-worksheet.getCell('J1').alignment = {
+worksheet.getCell('G1').alignment = {
   vertical: 'middle',
   horizontal: 'right'
 };
@@ -81,7 +86,7 @@ worksheet.getCell('G5').value = {
 worksheet.getCell('G5').alignment = { vertical: 'middle', horizontal: 'right' };
 
 //subHeader styles
-worksheet.mergeCells('A6:F7');
+worksheet.mergeCells('A6:J7');
 worksheet.getCell('A6').value = {
   richText: [
     { font: { bold: true }, text: 'Cycle Total: ' },
@@ -89,15 +94,30 @@ worksheet.getCell('A6').value = {
   ]
 };
 worksheet.getCell('A6').alignment = { vertical: 'middle', horizontal: 'left' };
-
+for (let i = 0; i < 10; i++) {
+  worksheet.getCell(`${alphabet[i]}6`).border = { top: { style: 'thick' } };
+}
 //table header styles
-const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
 for (let i = 3; i < 10; i++) {
   worksheet.mergeCells(`${alphabet[i]}8:${alphabet[i]}9`);
 }
 worksheet.mergeCells('A8:A9');
 worksheet.mergeCells('B8:C9');
+
+for (let i = 0; i < 10; i++) {
+  worksheet.getCell(`${alphabet[i]}8`).alignment = {
+    vertical: 'middle',
+    horizontal: 'center',
+    wrapText: true
+  };
+  worksheet.getCell(`${alphabet[i]}8`).border = {
+    bottom: { style: 'thick' }
+  };
+  worksheet.getCell(`${alphabet[i]}8`).font = {
+    bold: true
+  };
+}
 
 //table styles
 
@@ -109,14 +129,45 @@ for (let i = 0; i < tableBody.length - 1; i++) {
 //summary styles
 let summaryStart = 10 + tableBody.length;
 for (let i = 0; i < 10; i++) {
+  worksheet.getCell(`${alphabet[i]}${summaryStart}`).border = {
+    top: { style: 'thick' }
+  };
+  worksheet.getCell(`${alphabet[i]}${summaryStart}`).font = { bold: true };
+  worksheet.getCell(`${alphabet[i]}${summaryStart}`).alignment = {
+    vertical: 'middle',
+    horizontal: 'center',
+    wrapText: true
+  };
+}
+for (let i = 6; i < 10; i++) {
   worksheet.mergeCells(
     `${alphabet[i]}${summaryStart}:${alphabet[i]}${summaryStart + 1}`
   );
 }
+
 for (let i = 2; i < 5; i++) {
   worksheet.mergeCells(`A${summaryStart + i}:F${summaryStart + i}`);
 }
+worksheet.mergeCells(`A${summaryStart}:F${summaryStart + 1}`);
 worksheet.mergeCells(`A${summaryStart + 5}:F${summaryStart + 6}`);
+worksheet.mergeCells(`G${summaryStart + 5}:G${summaryStart + 6}`);
+worksheet.mergeCells(`H${summaryStart + 5}:H${summaryStart + 6}`);
+worksheet.mergeCells(`I${summaryStart + 5}:I${summaryStart + 6}`);
+worksheet.mergeCells(`J${summaryStart + 5}:J${summaryStart + 6}`);
+
+worksheet.getCell(`A${summaryStart + 2}`).font = { bold: true };
+worksheet.getCell(`A${summaryStart + 3}`).font = { bold: true };
+worksheet.getCell(`A${summaryStart + 4}`).font = { bold: true };
+worksheet.getCell(`A${summaryStart + 5}`).font = { bold: true, size: 14 };
+
+for (let i = 0; i < 10; i++) {
+  worksheet.getCell(`${alphabet[i]}${summaryStart + 4}`).border = {
+    bottom: { style: 'dotted' }
+  };
+  worksheet.getCell(`${alphabet[i]}${summaryStart + 6}`).border = {
+    bottom: { style: 'thick' }
+  };
+}
 
 workbook.xlsx.writeFile('complianceReport.xlsx').then(function() {
   console.log('File Written');
