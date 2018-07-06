@@ -1,44 +1,120 @@
-//Multiple-use data
-exports.buildReportData = function(profile, regulator, certificates) {
+const helper = require('./categoryHelper');
+
+exports.buildReportData = function(
+  profile,
+  regulator,
+  certificates,
+  reportType
+) {
   const certificatesDict = certificates.reduce((obj, cert) => {
     obj[cert.cert_id] = cert;
     return obj;
   }, {});
 
-  const dynamicCategories = [];
-  const keys = Object.keys(regulator.hour_categories);
-  keys.forEach(key => {
-    dynamicCategories.unshift(key);
-  });
+  const yearKeys = Object.keys(regulator.years);
+
+  function getAllCerts() {
+    const allCerts = [];
+    yearKeys.forEach(key => {
+      const tempAppliedCerts = regulator.years[key].certificates_applied;
+      Object.keys(tempAppliedCerts).forEach(cert_id => {
+        const { cert, date, sponsor, sponsors, delivery } = certificatesDict[
+          cert_id
+        ];
+        let newDateObj = new Date(date);
+        let formattedDate = `${newDateObj.getMonth() +
+          1}/${newDateObj.getDate()}/${newDateObj.getFullYear()}`;
+        const tempCert = {
+          cert,
+          cert_id,
+          formattedDate,
+          sponsor,
+          sponsors,
+          delivery,
+          hours: tempAppliedCerts[cert_id]
+        };
+        allCerts.push(tempCert);
+      });
+    });
+    return allCerts;
+  }
+  function getCertsByCategory() {
+    const certsByCategory = {};
+    yearKeys.forEach(key => {
+      const tempAppliedCerts = regulator.years[key].certificates_applied;
+      Object.keys(tempAppliedCerts).forEach(cert_id => {
+        const { cert, date, sponsor, sponsors, delivery } = certificatesDict[
+          cert_id
+        ];
+        let newDateObj = new Date(date);
+        let formattedDate = `${newDateObj.getMonth() +
+          1}/${newDateObj.getDate()}/${newDateObj.getFullYear()}`;
+        const tempCert = {
+          cert,
+          cert_id,
+          formattedDate,
+          sponsor,
+          sponsors,
+          delivery,
+          hours: tempAppliedCerts[cert_id]
+        };
+        let categoryKeys = Object.keys(helper.categoryReadable);
+        categoryKeys.forEach(category => {
+          if (!certsByCategory[category] && tempCert.hours[category] > 0)
+            certsByCategory[category] = [];
+          if (tempCert.hours[category])
+            certsByCategory[category].push(tempCert);
+        });
+      });
+    });
+    return certsByCategory;
+  }
+  function getCertsByYear() {
+    const certsByYear = {};
+    yearKeys.forEach(key => {
+      if (!certsByYear[key]) certsByYear[key] = [];
+      const tempAppliedCerts = regulator.years[key].certificates_applied;
+      Object.keys(tempAppliedCerts).forEach(cert_id => {
+        const { cert, date, sponsor, sponsors, delivery } = certificatesDict[
+          cert_id
+        ];
+        let newDateObj = new Date(date);
+        let formattedDate = `${newDateObj.getMonth() +
+          1}/${newDateObj.getDate()}/${newDateObj.getFullYear()}`;
+        const tempCert = {
+          cert,
+          cert_id,
+          formattedDate,
+          sponsor,
+          sponsors,
+          delivery,
+          hours: tempAppliedCerts[cert_id]
+        };
+        certsByYear[key].push(tempCert);
+      });
+    });
+    return certsByYear;
+  }
+
+  const allCerts = getAllCerts();
+  const certsByCategory = getCertsByCategory();
+  const certsByYear = getCertsByYear();
+
+  function getCertsFromObject(certObj) {
+    const certs = [];
+    let keys = Object.keys(certObj);
+    keys.forEach(cert => {
+      certs.push(certObj[cert]);
+    });
+  }
+
+  function getCategoryNames(certsObject) {
+    return Object.keys(certsObject);
+  }
 
   const hourTotals = {};
   dynamicCategories.forEach(col => {
     hourTotals[col] = 0;
-  });
-
-  const allCerts = [];
-  const yearKeys = Object.keys(regulator.years);
-  yearKeys.forEach(key => {
-    const tempAppliedCerts = regulator.years[key].certificates_applied;
-    Object.keys(tempAppliedCerts).forEach(cert_id => {
-      const { cert, date, sponsor, sponsors, delivery } = certificatesDict[
-        cert_id
-      ];
-      let newDateObj = new Date(date);
-      let formattedDate = `${newDateObj.getMonth() +
-        1}/${newDateObj.getDate()}/${newDateObj.getFullYear()}`;
-      const tempCert = {
-        cert,
-        cert_id,
-        formattedDate,
-        sponsor,
-        sponsors,
-        delivery,
-        hours: tempAppliedCerts[cert_id]
-      };
-
-      allCerts.push(tempCert);
-    });
   });
 
   const licenseNum = regulator.license_number;
@@ -79,29 +155,38 @@ exports.buildReportData = function(profile, regulator, certificates) {
     const subHeaderRows = [new Array(10), new Array(10)];
     return subHeaderRows;
   }
-  function buildTableHeader() {
+  //needs to take category name
+  function buildTableHeader(certsByCategory) {
+    const certs = getCertsFromObject(certsByCategory);
+    const certCategories = getCategoryNames(certs);
     const tableHeaderRows = [new Array(10), new Array(10)];
     tableHeaderRows[0][0] = 'DATE';
     tableHeaderRows[0][1] = 'TITLE';
     tableHeaderRows[0][3] = 'SPONSOR';
     tableHeaderRows[0][4] = 'DELIVERY METHOD';
-    let numberOfDynamicCategories = dynamicCategories.length;
-    for (let i = 9; numberOfDynamicCategories > 0; i--) {
-      tableHeaderRows[0][i] = dynamicCategories[numberOfDynamicCategories - 1]
+    let catLength = certCategories.length;
+    //if individual, only add one category
+    for (let i = 9; catLength > 0; i--) {
+      tableHeaderRows[0][i] = certCategories[catLength - 1]
         .replace('_', ' ')
         .toUpperCase();
-      numberOfDynamicCategories--;
+      catLength--;
     }
     return tableHeaderRows;
   }
-  function buildTableBody() {
+  //needs to take category name ()
+  function buildTableBody(certsObject) {
+
+
+
     const tableBodyRows = [];
-    allCerts.forEach(cert => {
+    certs.forEach(cert => {
       let tempRow = [new Array(10)];
       tempRow[0] = cert.formattedDate;
       tempRow[1] = cert.cert;
       tempRow[3] = cert.sponsor || cert.sponsors.name;
       tempRow[4] = cert.delivery;
+
       let numberOfDynamicCategories = dynamicCategories.length;
       for (let i = 9; numberOfDynamicCategories > 0; i--) {
         tempRow[i] =
@@ -141,32 +226,63 @@ exports.buildReportData = function(profile, regulator, certificates) {
         .toUpperCase();
       tableSummaryRows[2][i] = hourTotals[tempCategoryName];
       tableSummaryRows[3][i] = hourTotals[tempCategoryName];
-      tableSummaryRows[4][i] =
-        regulator.hour_categories[tempCategoryName].cycle.min;
 
-      regulator.hour_categories[tempCategoryName].cycle.min -
-        hourTotals[tempCategoryName] >
-      0
-        ? (tableSummaryRows[5][i] =
-            regulator.hour_categories[tempCategoryName].cycle.min -
-            hourTotals[tempCategoryName])
-        : (tableSummaryRows[5][i] = 0);
-      length--;
+      if (reportType === 'Annual') {
+        tableSummaryRows[4][i] = '';
+        tableSummaryRows[5][i] = '';
+        length--;
+      } else {
+        tableSummaryRows[4][i] =
+          regulator.hour_categories[tempCategoryName].cycle.min;
+        regulator.hour_categories[tempCategoryName].cycle.min -
+          hourTotals[tempCategoryName] >
+        0
+          ? (tableSummaryRows[5][i] =
+              regulator.hour_categories[tempCategoryName].cycle.min -
+              hourTotals[tempCategoryName])
+          : (tableSummaryRows[5][i] = 0);
+        length--;
+      }
     }
     return tableSummaryRows;
   }
-  const headerRows = buildHeader();
-  const subHeaderRows = buildSubHeader();
-  const tableHeaderRows = buildTableHeader();
-  const tableBodyRows = buildTableBody();
-  const tableSummaryRows = buildTableSummary();
+  //if annual, build multiple times
+  const headerRows = [];
+  const subHeaderRows = [];
+  const tableHeaderRows = [];
+  const tableBodyRows = [];
+  const tableSummaryRows = [];
+
+  headerRows.push(buildHeader());
+
+  switch (reportType) {
+    case 'Complete':
+      break;
+    case 'Annual':
+      let certKeys = Object.keys(certsByYear);
+      certKeys.forEach(key => {
+        subHeaderRows.push(buildSubHeader());
+        tableHeaderRows.push(buildTableHeader());
+        tableBodyRows.push(buildTableBody(certsByYear[key]));
+        tableSummaryRows.push(buildTableSummary());
+      });
+      break;
+    case 'Cycle':
+      break;
+    default:
+      subHeaderRows = buildSubHeader();
+      tableHeaderRows = buildTableHeader(certsByCategory);
+      tableBodyRows = buildTableBody(allCerts);
+      tableSummaryRows = buildTableSummary();
+      break;
+  }
 
   const reportData = {
-    header: headerRows,
-    subHeader: subHeaderRows,
-    tableHeader: tableHeaderRows,
-    tableBody: tableBodyRows,
-    tableSummary: tableSummaryRows,
+    headerData: headerRows,
+    subHeaderData: subHeaderRows,
+    tableHeaderData: tableHeaderRows,
+    tableBodyData: tableBodyRows,
+    tableSummaryData: tableSummaryRows,
     richTextData: richTextData
   };
   return reportData;
