@@ -178,8 +178,6 @@ exports.buildReportData = function(profile, regulator, certificates) {
     return tableSummaryRows;
   }
 
-  console.log(dynamicCategories);
-
   const headerRows = buildHeader();
   const subHeaderRows = buildSubHeader();
   const tableHeaderRows = buildTableHeader();

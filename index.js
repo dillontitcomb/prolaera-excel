@@ -3,13 +3,17 @@ const certificates = require('./json/certificates.json');
 const regulators = require('./json/regulators.json');
 const profile = require('./json/profile.json');
 const data = require('./reportDataBuilder');
+const headerBuilder = require('./components/header');
+const subHeaderBuilder = require('./components/subHeader');
 
+const regulator = regulators[3];
 const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-
+const reportData = { regulator, profile, certificates };
 // create workbook & add worksheet
 
 const workbook = new Excel.Workbook();
 const worksheet = workbook.addWorksheet('User Compliance Report');
+const testSheet = workbook.addWorksheet('Components Test');
 
 worksheet.pageSetup.margins = {
   left: 0.25,
@@ -29,7 +33,7 @@ const {
   tableBody,
   tableSummary,
   richTextData
-} = data.buildReportData(profile, regulators[3], certificates);
+} = data.buildReportData(profile, regulator, certificates);
 
 //add all rows
 const allRows = header
@@ -169,6 +173,11 @@ for (let i = 0; i < 10; i++) {
   };
 }
 
+headerBuilder.buildHeader(testSheet, reportData);
+subHeaderBuilder.buildSubHeader(testSheet, reportData, '2015');
+subHeaderBuilder.buildSubHeader(testSheet, reportData, '2016');
+subHeaderBuilder.buildSubHeader(testSheet, reportData, '2017');
+
 workbook.xlsx.writeFile('complianceReport.xlsx').then(function() {
-  console.log('File Written');
+  console.log('Report Written');
 });

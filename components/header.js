@@ -1,4 +1,4 @@
-export default function buildHeader(worksheet, data) {
+exports.buildHeader = function(worksheet, data) {
   const firstRow = worksheet.actualRowCount;
   //make all styling relative to firstRow
   const { profile, regulator, certificates } = data;
@@ -10,6 +10,17 @@ export default function buildHeader(worksheet, data) {
   for (let i = 0; i < 5; i++) {
     headerRows.push(new Array(10));
   }
+
+  const licenseNum = regulator.license_number;
+  const cycleYears = regulator.cycleYears;
+  const date = new Date(regulator.date);
+  const twoYearsPrior = new Date(date.getTime() - 31556952000 * cycleYears);
+  const cycleEnd = `${date.getMonth() +
+    1}/${date.getDate()}/${date.getFullYear()}`;
+  const issueDate = cycleEnd;
+  const cycleStart = `${twoYearsPrior.getMonth() +
+    1}/${twoYearsPrior.getDate()}/${twoYearsPrior.getFullYear()}`;
+  const reportingPeriod = `${cycleStart} - ${cycleEnd}`;
 
   headerRows[0][0] = regulatorName;
   headerRows[0][6] = 'Page ' + pageNumber;
@@ -48,7 +59,7 @@ export default function buildHeader(worksheet, data) {
   worksheet.getCell('G3').value = {
     richText: [
       { font: { bold: true }, text: 'License #: ' },
-      { font: { bold: false }, text: richTextData.licenseNum }
+      { font: { bold: false }, text: licenseNum }
     ]
   };
   worksheet.getCell('G3').alignment = {
@@ -58,7 +69,7 @@ export default function buildHeader(worksheet, data) {
   worksheet.getCell('G4').value = {
     richText: [
       { font: { bold: true }, text: 'Issue Date: ' },
-      { font: { bold: false }, text: richTextData.issueDate }
+      { font: { bold: false }, text: issueDate }
     ]
   };
   worksheet.getCell('G4').alignment = {
@@ -68,11 +79,11 @@ export default function buildHeader(worksheet, data) {
   worksheet.getCell('G5').value = {
     richText: [
       { font: { bold: true }, text: 'Reporting Period: ' },
-      { font: { bold: false }, text: richTextData.reportingPeriod }
+      { font: { bold: false }, text: reportingPeriod }
     ]
   };
   worksheet.getCell('G5').alignment = {
     vertical: 'middle',
     horizontal: 'right'
   };
-}
+};
