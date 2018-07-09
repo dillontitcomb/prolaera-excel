@@ -5,6 +5,7 @@ const profile = require('./json/profile.json');
 const data = require('./reportDataBuilder');
 const headerBuilder = require('./components/header');
 const subHeaderBuilder = require('./components/subHeader');
+const tableHeaderBuilder = require('./components/tableHeader');
 
 const regulator = regulators[3];
 const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -174,9 +175,10 @@ for (let i = 0; i < 10; i++) {
 }
 
 headerBuilder.buildHeader(testSheet, reportData);
-subHeaderBuilder.buildSubHeader(testSheet, reportData, '2015');
-subHeaderBuilder.buildSubHeader(testSheet, reportData, '2016');
 subHeaderBuilder.buildSubHeader(testSheet, reportData, '2017');
+tableHeaderBuilder.buildTableHeader(testSheet, reportData, '2017');
+subHeaderBuilder.buildSubHeader(testSheet, reportData, 'ethics_state');
+tableHeaderBuilder.buildTableHeader(testSheet, reportData, 'ethics_state');
 
 workbook.xlsx.writeFile('complianceReport.xlsx').then(function() {
   console.log('Report Written');

@@ -1,4 +1,4 @@
-const categories = require('../helpers/categoryHelper');
+const categoryHelper = require('../helpers/categoryHelper');
 
 exports.buildSubHeader = function(worksheet, data, reportInput) {
   const { profile, regulator, certificates } = data;
@@ -38,9 +38,9 @@ exports.buildSubHeader = function(worksheet, data, reportInput) {
     reportingPeriod = `${yearStartFormatted} - ${yearEndFormatted}`;
     inputType = 'date';
     cycleType = 'Annual';
-  } else if (categories.categoryReadable[reportInput]) {
+  } else if (categoryHelper.categoryReadable[reportInput]) {
     inputType = 'category';
-    cycleType = categories.categoryHelper(reportInput);
+    cycleType = categoryHelper.getCategory(reportInput);
     reportingPeriod = `${cycleStart} - ${cycleEnd}`;
   } else {
     inputType = 'default';

@@ -43,6 +43,6 @@ exports.categoryReadable = {
   taxation: 'Taxation'
 };
 
-exports.categoryHelper = function(category) {
+exports.getCategory = function(category) {
   return exports.categoryReadable[category.toLowerCase()] || category;
 };
