@@ -18,7 +18,7 @@ exports.buildTableHeader = function(worksheet, data, reportInput) {
   } else if (categoryHelper.categoryReadable[reportInput]) {
     inputType = 'category';
     cycleType = categoryHelper.getCategory(reportInput);
-    categories = [cycleType];
+    categories = [reportInput];
   } else {
     const keys = Object.keys(regulator.hour_categories);
     keys.forEach(key => {
