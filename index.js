@@ -175,22 +175,31 @@ for (let i = 0; i < 10; i++) {
   };
 }
 
+function buildReport(worksheet, reportData, reportType) {
+  const { profile, regulator, certificates } = reportData;
+  const years = Object.keys(regulator.years);
+  headerBuilder.buildHeader(testSheet, reportData);
+  switch (reportType) {
+    case 'annual':
+      years.forEach(year => {
+        subHeaderBuilder.buildSubHeader(testSheet, reportData, year);
+        tableHeaderBuilder.buildTableHeader(testSheet, reportData, year);
+        tableBodyBuilder.buildTableBody(testSheet, reportData, year);
+      });
+      break;
+
+    case 'complete':
+      break;
+
+    default:
+      break;
+  }
+}
+
 headerBuilder.buildHeader(testSheet, reportData);
-subHeaderBuilder.buildSubHeader(testSheet, reportData, '2017');
-tableHeaderBuilder.buildTableHeader(testSheet, reportData, '2017');
-tableBodyBuilder.buildTableBody(testSheet, reportData, '2017');
-subHeaderBuilder.buildSubHeader(testSheet, reportData, 'nontech');
-tableHeaderBuilder.buildTableHeader(testSheet, reportData, 'nontech');
-tableBodyBuilder.buildTableBody(testSheet, reportData, 'nontech');
-subHeaderBuilder.buildSubHeader(testSheet, reportData, 'tech');
-tableHeaderBuilder.buildTableHeader(testSheet, reportData, 'tech');
-tableBodyBuilder.buildTableBody(testSheet, reportData, 'tech');
-subHeaderBuilder.buildSubHeader(testSheet, reportData, 'nontech');
-tableHeaderBuilder.buildTableHeader(testSheet, reportData, 'nontech');
-tableBodyBuilder.buildTableBody(testSheet, reportData, 'nontech');
-subHeaderBuilder.buildSubHeader(testSheet, reportData, '2017');
-tableHeaderBuilder.buildTableHeader(testSheet, reportData, '2017');
-tableBodyBuilder.buildTableBody(testSheet, reportData, '2017');
+subHeaderBuilder.buildSubHeader(testSheet, reportData, 'cycle');
+tableHeaderBuilder.buildTableHeader(testSheet, reportData, 'cycle');
+tableBodyBuilder.buildTableBody(testSheet, reportData, 'cycle');
 
 workbook.xlsx.writeFile('complianceReport.xlsx').then(function() {
   console.log('Report Written');

@@ -51,7 +51,7 @@ exports.buildTableBody = function(worksheet, data, reportInput) {
     });
     inputType = 'default';
     cycleType = 'Cycle';
-    allCerts = certsAll.getAllCerts();
+    allCerts = certsAll.getAllCerts(regulator, certificates);
   }
 
   const tableBodyRows = [];
