@@ -1,4 +1,4 @@
-const categoryReadable = {
+exports.categoryReadable = {
   a_a: 'A & A',
   a_a_g: 'Government A & A',
   a_a_t: 'A & A & Tax',
@@ -43,6 +43,6 @@ const categoryReadable = {
   taxation: 'Taxation'
 };
 
-export default function() {
-  return category => categoryReadable[category.toLowerCase()] || category;
-}
+exports.getCategory = function(category) {
+  return exports.categoryReadable[category.toLowerCase()] || category;
+};
