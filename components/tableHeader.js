@@ -43,7 +43,7 @@ exports.buildTableHeader = function(worksheet, data, reportInput) {
 
   worksheet.addRows(tableHeaderRows);
 
-  // styles
+  // cell styling and rich text
 
   for (let i = 3; i < 10; i++) {
     worksheet.mergeCells(

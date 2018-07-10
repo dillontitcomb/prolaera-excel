@@ -3,7 +3,6 @@ const categoryHelper = require('../helpers/categoryHelper');
 exports.buildSubHeader = function(worksheet, data, reportInput) {
   const { profile, regulator, certificates } = data;
   const firstRow = worksheet.actualRowCount + 1;
-  const subHeaderRows = [new Array(10), new Array(10)];
   const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
   const cycleYears = regulator.cycleYears;
@@ -13,11 +12,6 @@ exports.buildSubHeader = function(worksheet, data, reportInput) {
     1}/${date.getDate()}/${date.getFullYear()}`;
   const cycleStart = `${yearsPrior.getMonth() +
     1}/${yearsPrior.getDate()}/${yearsPrior.getFullYear()}`;
-
-  // example reportInputs: (category, year, or cycle);
-  // 'ethics_state'
-  // '2015'
-  // 'default'
 
   let yearEnd;
   let yearStart;
@@ -47,6 +41,8 @@ exports.buildSubHeader = function(worksheet, data, reportInput) {
     cycleType = 'Cycle';
     reportingPeriod = `${cycleStart} - ${cycleEnd}`;
   }
+
+  // cell styling and rich text
 
   worksheet.mergeCells(`A${firstRow}}:J${firstRow + 1}`);
   worksheet.getCell(`A${firstRow}`).value = {

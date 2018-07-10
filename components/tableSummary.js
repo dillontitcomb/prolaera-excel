@@ -86,7 +86,7 @@ exports.buildTableSummary = function(worksheet, data, reportInput) {
   }
   worksheet.addRows(tableSummaryRows);
 
-  //styles and rich text
+  //cell styling and rich text
 
   for (let i = 0; i < 10; i++) {
     worksheet.getCell(`${alphabet[i]}${firstRow}`).border = {

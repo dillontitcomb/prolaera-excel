@@ -28,6 +28,8 @@ exports.buildHeader = function(worksheet, data) {
 
   worksheet.addRows(headerRows);
 
+  // cell styling and rich text
+
   worksheet.mergeCells('A1:F2');
   worksheet.mergeCells('A3:F5');
   worksheet.mergeCells('G1:J2');

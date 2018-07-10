@@ -70,6 +70,8 @@ exports.buildTableBody = function(worksheet, data, reportInput) {
 
   worksheet.addRows(tableBodyRows);
 
+  //cell styling and rich text
+
   for (let i = 0; i < tableBodyRows.length - 1; i++) {
     let rowNum = firstRow + i;
     worksheet.mergeCells(`B${rowNum}:C${rowNum}`);
