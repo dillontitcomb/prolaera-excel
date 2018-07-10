@@ -6,6 +6,7 @@ exports.getCertsByCategory = function(regulator, certificates) {
     return obj;
   }, {});
   const certsByCategory = {};
+  certsByCategory['totals'] = {};
   const yearKeys = Object.keys(regulator.years);
   yearKeys.forEach(key => {
     const tempAppliedCerts = regulator.years[key].certificates_applied;

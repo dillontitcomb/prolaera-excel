@@ -7,6 +7,7 @@ const headerBuilder = require('./components/header');
 const subHeaderBuilder = require('./components/subHeader');
 const tableHeaderBuilder = require('./components/tableHeader');
 const tableBodyBuilder = require('./components/tableBody');
+const tableSummaryBuilder = require('./components/tableSummary');
 
 const regulator = regulators[3];
 const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -197,9 +198,10 @@ function buildReport(worksheet, reportData, reportType) {
 }
 
 headerBuilder.buildHeader(testSheet, reportData);
-subHeaderBuilder.buildSubHeader(testSheet, reportData, 'cycle');
-tableHeaderBuilder.buildTableHeader(testSheet, reportData, 'cycle');
-tableBodyBuilder.buildTableBody(testSheet, reportData, 'cycle');
+subHeaderBuilder.buildSubHeader(testSheet, reportData, 'nontech');
+tableHeaderBuilder.buildTableHeader(testSheet, reportData, 'nontech');
+tableBodyBuilder.buildTableBody(testSheet, reportData, 'nontech');
+tableSummaryBuilder.buildTableSummary(testSheet, reportData, 'nontech');
 
 workbook.xlsx.writeFile('complianceReport.xlsx').then(function() {
   console.log('Report Written');

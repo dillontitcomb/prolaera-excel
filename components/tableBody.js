@@ -21,8 +21,6 @@ exports.buildTableBody = function(worksheet, data, reportInput) {
   const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   let allCerts;
 
-  const certsObject2 = certsAll.getAllCerts(regulator, certificates);
-
   let inputType;
   let cycleType;
   let categories = [];
@@ -69,5 +67,11 @@ exports.buildTableBody = function(worksheet, data, reportInput) {
     }
     tableBodyRows.push(tempRow);
   });
+
   worksheet.addRows(tableBodyRows);
+
+  for (let i = 0; i < tableBodyRows.length - 1; i++) {
+    let rowNum = firstRow + i;
+    worksheet.mergeCells(`B${rowNum}:C${rowNum}`);
+  }
 };
