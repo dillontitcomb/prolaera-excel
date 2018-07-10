@@ -52,12 +52,12 @@ exports.buildReport = function(worksheet, reportData, reportType) {
         tableSummaryBuilder.buildTableSummary(worksheet, reportData, cat);
       });
       break;
+    // default case builds single table for year or category reportType (e.g. '2017' or 'ethics_state')
     default:
       subHeaderBuilder.buildSubHeader(worksheet, reportData, reportType);
       tableHeaderBuilder.buildTableHeader(worksheet, reportData, reportType);
       tableBodyBuilder.buildTableBody(worksheet, reportData, reportType);
       tableSummaryBuilder.buildTableSummary(worksheet, reportData, reportType);
-      // case for individual year or category
       break;
   }
 };

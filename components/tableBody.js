@@ -21,12 +21,8 @@ exports.buildTableBody = function(worksheet, data, reportInput) {
   const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   let allCerts;
 
-  let inputType;
-  let cycleType;
   let categories = [];
   if (parseInt(reportInput) > 999 && parseInt(reportInput) < 2100) {
-    inputType = 'date';
-    cycleType = 'Annual';
     const keys = Object.keys(regulator.hour_categories);
     keys.forEach(key => {
       categories.unshift(key);
@@ -34,8 +30,6 @@ exports.buildTableBody = function(worksheet, data, reportInput) {
     const certsObject3 = certsByYear.getCertsByYear(regulator, certificates);
     allCerts = certsObject3[reportInput];
   } else if (categoryHelper.categoryReadable[reportInput]) {
-    inputType = 'category';
-    cycleType = categoryHelper.getCategory(reportInput);
     categories = [reportInput];
     const certsObject1 = certsByCategory.getCertsByCategory(
       regulator,
@@ -47,8 +41,6 @@ exports.buildTableBody = function(worksheet, data, reportInput) {
     keys.forEach(key => {
       categories.unshift(key);
     });
-    inputType = 'default';
-    cycleType = 'Cycle';
     allCerts = certsAll.getAllCerts(regulator, certificates);
   }
 
@@ -62,7 +54,6 @@ exports.buildTableBody = function(worksheet, data, reportInput) {
     let categoryNumber = categories.length;
     for (let i = 9; categoryNumber > 0; i--) {
       tempRow[i] = cert.hours[categories[categoryNumber - 1]];
-      let tempCategory = [categories[categoryNumber - 1]];
       categoryNumber--;
     }
     tableBodyRows.push(tempRow);

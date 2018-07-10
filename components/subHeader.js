@@ -19,7 +19,6 @@ exports.buildSubHeader = function(worksheet, data, reportInput) {
   let yearStartFormatted;
   let reportingPeriod;
   let cycleYear;
-  let inputType;
   let cycleType;
   if (parseInt(reportInput) > 999 && parseInt(reportInput) < 2100) {
     cycleYear = parseInt(reportInput);
@@ -30,14 +29,11 @@ exports.buildSubHeader = function(worksheet, data, reportInput) {
     yearStartFormatted = `${yearStart.getMonth() +
       1}/${yearStart.getDate()}/${yearStart.getFullYear()}`;
     reportingPeriod = `${yearStartFormatted} - ${yearEndFormatted}`;
-    inputType = 'date';
     cycleType = 'Annual';
   } else if (categoryHelper.categoryReadable[reportInput]) {
-    inputType = 'category';
     cycleType = categoryHelper.getCategory(reportInput);
     reportingPeriod = `${cycleStart} - ${cycleEnd}`;
   } else {
-    inputType = 'default';
     cycleType = 'Cycle';
     reportingPeriod = `${cycleStart} - ${cycleEnd}`;
   }

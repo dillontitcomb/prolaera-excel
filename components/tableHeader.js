@@ -5,27 +5,19 @@ exports.buildTableHeader = function(worksheet, data, reportInput) {
   const firstRow = worksheet.actualRowCount + 1;
   const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
-  let inputType;
-  let cycleType;
   let categories = [];
   if (parseInt(reportInput) > 999 && parseInt(reportInput) < 2100) {
-    inputType = 'date';
-    cycleType = 'Annual';
     const keys = Object.keys(regulator.hour_categories);
     keys.forEach(key => {
       categories.unshift(key);
     });
   } else if (categoryHelper.categoryReadable[reportInput]) {
-    inputType = 'category';
-    cycleType = categoryHelper.getCategory(reportInput);
     categories = [reportInput];
   } else {
     const keys = Object.keys(regulator.hour_categories);
     keys.forEach(key => {
       categories.unshift(key);
     });
-    inputType = 'default';
-    cycleType = 'Cycle';
   }
 
   const tableHeaderRows = [new Array(10), new Array(10)];

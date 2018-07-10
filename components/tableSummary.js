@@ -2,17 +2,7 @@ const categoryHelper = require('../helpers/categoryHelper');
 const certsByCategory = require('../helpers/certsByCategory');
 const certsByYear = require('../helpers/certsByYear');
 const certsAll = require('../helpers/allCerts');
-
-function getHourTotals(certificates, hourCategories) {
-  const hourTotals = {};
-  certificates.forEach(cert => {
-    hourCategories.forEach(category => {
-      if (!hourTotals[category]) hourTotals[category] = 0;
-      if (cert.hours[category]) hourTotals[category] += cert.hours[category];
-    });
-  });
-  return hourTotals;
-}
+const getHours = require('../helpers/getHourTotals');
 
 exports.buildTableSummary = function(worksheet, data, reportInput) {
   const { profile, regulator, certificates } = data;
@@ -21,12 +11,8 @@ exports.buildTableSummary = function(worksheet, data, reportInput) {
   let allCerts;
   let certHourTotals;
 
-  let inputType;
-  let cycleType;
   let categories = [];
   if (parseInt(reportInput) > 999 && parseInt(reportInput) < 2100) {
-    inputType = 'date';
-    cycleType = 'Annual';
     const keys = Object.keys(regulator.hour_categories);
     keys.forEach(key => {
       categories.unshift(key);
@@ -34,8 +20,6 @@ exports.buildTableSummary = function(worksheet, data, reportInput) {
     const certsObject3 = certsByYear.getCertsByYear(regulator, certificates);
     allCerts = certsObject3[reportInput];
   } else if (categoryHelper.categoryReadable[reportInput]) {
-    inputType = 'category';
-    cycleType = categoryHelper.getCategory(reportInput);
     categories = [reportInput];
     const certsObject1 = certsByCategory.getCertsByCategory(
       regulator,
@@ -47,11 +31,10 @@ exports.buildTableSummary = function(worksheet, data, reportInput) {
     keys.forEach(key => {
       categories.unshift(key);
     });
-    inputType = 'default';
-    cycleType = 'Cycle';
     allCerts = certsAll.getAllCerts(regulator, certificates);
   }
-  certHourTotals = getHourTotals(allCerts, categories);
+
+  certHourTotals = getHours.getHourTotals(allCerts, categories);
   const tableSummaryRows = [
     new Array(10),
     new Array(10),
